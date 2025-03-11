@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header{
+
+    width: 100%;
+    height: 20vh;
+    background: black;
+
+}
+.headcontener {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    justify-content: center;
+
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.navi {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navi-link {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #f5e8d2;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden; 
+    z-index: 1;
+}
+
+.navi-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #fe5236;
+    transition: 0.5s ease;
+    z-index: 2; 
+}
+
+.navi-link:hover {
+    color: white;
+    transition-delay: 0.5s;
+    z-index: 3; 
+}
+
+.navi-link:hover::before {
+    width: 100%;
+}
+
+.navi-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #fe5236;
+    transition: 0.4s ease;
+    z-index: 0; 
+}
+
+.navi-link:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    z-index: -1; 
+}
+
+
+.language {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-right: 20px;
+} 
+
+.language-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+  }
+
+  .language-btn:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #fe5236;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+
+  .language-btn:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+
+  .language-btn span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #f5e8d2;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .language-btn:hover span {
+    color: white;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  /* end header */
+  /* main  */
+
+  /* intro */
+  .intro {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Przyciemniony kwadrat */
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 90%;
+}
+.intro::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    color: #f5e8d2;
+}
+
+.Name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #f5e8d2;
+}
+
+.Name::before,
+.Name::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #f5e8d2;
+    display: inline-block;
+    margin: 0 30px;
+}
+/*end intro */
+/* about */
+.about{
+    min-height: 60vh;
+    text-align: center;
+}
+
+
+/* end about */
+  /* end main */

@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Boru ramen shop{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        {% block header %}
+        <div class="headcontener">
+            <div class="logo">
+                <img src="{% static 'logoboru.png' %}" alt="Logo">
+            </div>
+            <div class="navi">
+                <a href="" class="navi-link">Strona Główna</a> 
+                <a href="" class="navi-link">O Nas</a> 
+                <a href="" class="navi-link">Menu</a> 
+                <a href="" class="navi-link">Zamów onlinie</a> 
+            </div>
+            <div class="language">
+                <button id="pl" class="language-btn">
+                    <span>PL</span>
+                </button>
+                <button id="en" class="language-btn">
+                    <span>EN</span>
+                </button>
+            </div>
+        </div>
+        {% endblock %}
+    </header>
+    <main>
+        {% block main %}
+        <div class="intro" >
+        <style>
+            .intro {
+                background-image: url("{% static 'background.jpg' %}");
+            }
+        </style>
+        
+            <div class="overlay">
+                <div class="slogan">
+                    <h1>tutaj bedzie slogan</h1>
+                    <p>Tutaj bedzie kotek</p>
+                </div>
+                <div class="Name">
+                    <h2>Boru Ramen Shop</h2>
+                </div>
+            </div>  
+        </div>
+        <div class="About">
+            <h2 class="Sectionname">O Nas</h2>
+            <div class="info">
+                <h3 class="infoneme">
+                    Tutaj bedzie opis nas
+                </h3>
+                <p class="infotext">
+                    inforamcje jakies
+                </p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19979.844957648344!2d22.539157089295877!3d51.247059592315715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257ab3572519b%3A0xd126018922598090!2sB%C5%8Dru%20Ramen%20Shop!5e0!3m2!1spl!2spl!4v1741697708091!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+        <div class="socials">
+            <h2 class="Sectionname">Nasze Social Media</h3> 
+            <div class="fb">
+                tutaj bedzie podglad profilu fb 
+                <a href="" class="social-link">Facebook</a>
+            </div> 
+            <div class="ig">
+                tutaj bedzie podglad profilu ig
+                <a href="" class="social-link">Instagram</a>
+            </div>
+        </div>
+        <div class="menu">
+            <h2 class="Sectionname">Menu</h2>
+            <div class="Recomendation">
+                <h3 class="recomendationname">
+                    Rekomendacje
+                </h3>
+                <p class="recomendationtext">
+                    tutaj bedzie opis rekomendacji
+                </p>
+            </div>
+            <div class="menulink">
+                <h3 class="linkmenu">
+                    Całe menu zobaczysz tutaj
+                </h3>
+                <a href="" class="link-menu">Link do menu</a>
+            </div>
+        </div>
+        <div class="order">
+            <h2 class="Sectionname">Zamów onlinie</h2>
+            <div class="pyszne">
+                <a href="" class="pysznelink">Zamów przez pyszne</a>
+
+            </div>
+            <div class="uber">
+                <a href="" class="uberlink">Zamów przez uber eats</a>
+            </div>
+        </div>
+        <div class="reservation">
+            <h2 class="Sectionname">Rezerwacje</h2>
+            <div class="rezerwacja">
+                <p class="rezerwacjatext">
+                    tutaj bedzie opis rezerwacji
+                </p>
+            </div>
+        </div>
+        
+        {% endblock %}
+    </main>
+    <footer>
+        {% block footer %}
+        <div class="end">
+            <div class="logoend">
+                <img src="{% static 'logoboru.png' %}" alt="Logo">
+            </div>
+            <div class="naviend">
+                <a href="" class="fot-link">Strona Główna</a> 
+                <a href="" class="fot-link">O Nas</a> 
+                <a href="" class="fot-link">Menu</a> 
+                <a href="" class="fot-link">Zamów online</a>
+                <a href="" class="fot-link">Polityka prywatności</a>
+            </div>
+            <div class="social-media">
+                <a href="" class="social-link">Facebook</a> 
+                <a href="" class="social-link">Instagram</a> 
+                <a href="" class="social-link">Twitter</a>
+            </div>
+
+        </div>
+
+        <p>2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone.</p>
+        
+        {% endblock %}
+    </footer>
+</body>
+</html>

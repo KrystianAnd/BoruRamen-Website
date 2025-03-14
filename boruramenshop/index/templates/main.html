@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} Boru ramen shop{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -43,7 +44,7 @@
             <div class="overlay">
                 <div class="slogan">
                     <h1>tutaj bedzie slogan</h1>
-                    <p>Tutaj bedzie kotek</p>
+                    <img src="{% static 'kot.png' %}" alt="Cat" class="introcat">
                 </div>
                 <div class="Name">
                     <h2>Boru Ramen Shop</h2>
@@ -53,54 +54,85 @@
         <div class="About">
             <h2 class="Sectionname">O Nas</h2>
             <div class="info">
-                <h3 class="infoneme">
-                    Tutaj bedzie opis nas
-                </h3>
-                <p class="infotext">
-                    inforamcje jakies
-                </p>
+                <div class="info-container">
+                    <h3 class="infoneme">
+                        Tutaj będzie opis nas
+                    </h3>
+                    <p class="infotext">
+                        Informacje jakieś
+                    </p>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19979.844957648344!2d22.539157089295877!3d51.247059592315715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257ab3572519b%3A0xd126018922598090!2sB%C5%8Dru%20Ramen%20Shop!5e0!3m2!1spl!2spl!4v1741697708091!5m2!1spl!2spl" 
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19979.844957648344!2d22.539157089295877!3d51.247059592315715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257ab3572519b%3A0xd126018922598090!2sB%C5%8Dru%20Ramen%20Shop!5e0!3m2!1spl!2spl!4v1741697708091!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
         </div>
+        
         <div class="socials">
-            <h2 class="Sectionname">Nasze Social Media</h3> 
-            <div class="fb">
-                tutaj bedzie podglad profilu fb 
-                <a href="" class="social-link">Facebook</a>
-            </div> 
-            <div class="ig">
-                tutaj bedzie podglad profilu ig
-                <a href="" class="social-link">Instagram</a>
-            </div>
+            <h2 class="Sectionname">Nasze Social Media</h2> 
+                <div class ="solialscontener">
+                    <div class="fb">
+                        <h3 class="'fbhead">Nasz Facebook</h3>
+                        <p class="fbtext">tutaj bedzie cos o profilu</p>
+                        <a href="" class="social-link">Facebook</a>
+                    </div> 
+                    <div class="ig">
+                        <h3 class="'ighead">Nasz Instagram</h3>
+                        <p class="igtext">tutaj bedzie cos o profilu</p>
+                        <a href="" class="social-link">Instagram</a>
+                    </div>
+                </div>
         </div>
         <div class="menu">
             <h2 class="Sectionname">Menu</h2>
-            <div class="Recomendation">
-                <h3 class="recomendationname">
-                    Rekomendacje
-                </h3>
-                <p class="recomendationtext">
-                    tutaj bedzie opis rekomendacji
-                </p>
-            </div>
-            <div class="menulink">
-                <h3 class="linkmenu">
-                    Całe menu zobaczysz tutaj
-                </h3>
-                <a href="" class="link-menu">Link do menu</a>
-            </div>
+            <div class="menucontainer">
+                <div class="Recomendation">
+                    <h3 class="recomendationname">
+                        Rekomendacje
+                    </h3>
+                    <p class="recomendationtext">
+                        tutaj bedzie opis rekomendacji
+                    </p>
+                </div>
+                <div class="recomendationphoto">
+                    <img src="{% static 'ramen.png' %}" alt="Ramen" class="recphoto">
+                </div>
+                <div class="menulink">
+                    <h3 class="linkmenu">
+                        Całe menu zobaczysz tutaj
+                    </h3>
+                    <a href="" class="link-menu">Link do menu</a>
+                </div>
+            </div>  
         </div>
         <div class="order">
             <h2 class="Sectionname">Zamów onlinie</h2>
-            <div class="pyszne">
-                <a href="" class="pysznelink">Zamów przez pyszne</a>
-
+            <div class="ordertext">
+                <p class="textorder">
+                    tutaj bedzie opis zamówienia
+                </p>
             </div>
-            <div class="uber">
-                <a href="" class="uberlink">Zamów przez uber eats</a>
+            <div class="orderlinks">
+                <div class="pyszne">
+                    <a href="https://www.pyszne.pl/menu/boru-ramen-shop-lublin" class="pysznelink" target="_blank">
+                        <span class="text">Zamów przez Pyszne pl</span>
+                        <div class="icons">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="uber">
+                    <a href="https://www.ubereats.com/pl/store/boru-ramen-shop-lublin/vl46od_0Tq-J3v8Ez6-XHw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMnVsaWNhJTIwV2luY2VudGVnbyUyMFdpdG9zYSUyMDFEJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZmFkYWIyODItN2NlZC1iY2ViLTVlNzItNzAyY2ExYjFlZjljJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E1MS4yMjAwMiUyQyUyMmxvbmdpdHVkZSUyMiUzQTIyLjcxMzU2JTdE" class="uberlink" target="_blank">
+                        <span class="text">Zamów przez Uber Eats</span>
+                        <div class="iconsub">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="reservation">
@@ -130,13 +162,12 @@
             <div class="social-media">
                 <a href="" class="social-link">Facebook</a> 
                 <a href="" class="social-link">Instagram</a> 
-                <a href="" class="social-link">Twitter</a>
+
             </div>
 
         </div>
-
         <p>2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone.</p>
-        
+
         {% endblock %}
     </footer>
 </body>

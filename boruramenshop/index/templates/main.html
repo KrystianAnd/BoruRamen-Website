@@ -43,7 +43,7 @@
         
             <div class="overlay">
                 <div class="slogan">
-                    <h1>tutaj bedzie slogan</h1>
+                    <h1>Głęboki smak Japonii w każdej misce</h1>
                     <img src="{% static 'kot.png' %}" alt="Cat" class="introcat">
                 </div>
                 <div class="Name">
@@ -76,12 +76,33 @@
                     <div class="fb">
                         <h3 class="'fbhead">Nasz Facebook</h3>
                         <p class="fbtext">tutaj bedzie cos o profilu</p>
-                        <a href="" class="social-link">Facebook</a>
+                        <ul class="fbul">
+                            <li class="fbli">
+                              <a class="facebook" href="https://www.facebook.com/BoruRamenShop/" target="_blank">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i class="fa-brands fa-facebook"></i>
+                              </a>
+                            </li>
+                          </ul>
                     </div> 
                     <div class="ig">
                         <h3 class="'ighead">Nasz Instagram</h3>
                         <p class="igtext">tutaj bedzie cos o profilu</p>
-                        <a href="" class="social-link">Instagram</a>
+                        <ul class="igul">
+                            <li class="igli">
+                                <a class="instagram" href="https://www.instagram.com/boruramenshop/" target="_blank">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        
                     </div>
                 </div>
         </div>
@@ -103,7 +124,13 @@
                     <h3 class="linkmenu">
                         Całe menu zobaczysz tutaj
                     </h3>
-                    <a href="" class="link-menu">Link do menu</a>
+                    <div class="link-menu">
+                        <a href="#" class="menubtn">Menu</a>
+                        <span class="arrow first"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="arrow second"><i class="fa-solid fa-arrow-right"></i></span>
+                        <span class="arrow third"><i class="fa-solid fa-arrow-right"></i></span>
+                      </div>
+                      
                 </div>
             </div>  
         </div>
@@ -160,10 +187,13 @@
                 <a href="" class="fot-link">Polityka prywatności</a>
             </div>
             <div class="social-media">
-                <a href="" class="social-link">Facebook</a> 
-                <a href="" class="social-link">Instagram</a> 
-
-            </div>
+                <a href="https://www.facebook.com/BoruRamenShop/" class="social-link" >
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/boruramenshop/" class="social-link" >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>            
 
         </div>
         <p>2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone.</p>

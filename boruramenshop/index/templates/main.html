@@ -16,10 +16,10 @@
                 <img src="{% static 'logoboru.png' %}" alt="Logo">
             </div>
             <div class="navi">
-                <a href="" class="navi-link">Strona Główna</a> 
-                <a href="" class="navi-link">O Nas</a> 
-                <a href="" class="navi-link">Menu</a> 
-                <a href="" class="navi-link">Zamów onlinie</a> 
+                <a href="{% url 'main' %}" class="navi-link">Strona Główna</a> 
+                <a href="{% url 'main' %}#about" class="navi-link">O Nas</a> 
+                <a href="{% url 'menu' %}" class="navi-link">Menu</a> 
+                <a href="{% url 'main' %}#order" class="navi-link">Zamów onlinie</a> 
             </div>
             <div class="language">
                 <button id="pl" class="language-btn">
@@ -51,7 +51,7 @@
                 </div>
             </div>  
         </div>
-        <div class="About">
+        <div class="About" id="about" >
             <h2 class="Sectionname">O Nas</h2>
             <div class="info">
                 <div class="info-container">
@@ -74,7 +74,7 @@
             <h2 class="Sectionname">Nasze Social Media</h2> 
                 <div class ="solialscontener">
                     <div class="fb">
-                        <h3 class="'fbhead">Nasz Facebook</h3>
+                        <h3 class="fbtop">Nasz Facebook</h3>
                         <p class="fbtext">tutaj bedzie cos o profilu</p>
                         <ul class="fbul">
                             <li class="fbli">
@@ -89,7 +89,7 @@
                           </ul>
                     </div> 
                     <div class="ig">
-                        <h3 class="'ighead">Nasz Instagram</h3>
+                        <h3 class="igtop">Nasz Instagram</h3>
                         <p class="igtext">tutaj bedzie cos o profilu</p>
                         <ul class="igul">
                             <li class="igli">
@@ -125,7 +125,7 @@
                         Całe menu zobaczysz tutaj
                     </h3>
                     <div class="link-menu">
-                        <a href="#" class="menubtn">Menu</a>
+                        <a href="{% url 'menu' %}" class="menubtn">Menu</a>
                         <span class="arrow first"><i class="fa-solid fa-arrow-right"></i></span>
                         <span class="arrow second"><i class="fa-solid fa-arrow-right"></i></span>
                         <span class="arrow third"><i class="fa-solid fa-arrow-right"></i></span>
@@ -134,7 +134,7 @@
                 </div>
             </div>  
         </div>
-        <div class="order">
+        <div class="order" id="order">
             <h2 class="Sectionname">Zamów onlinie</h2>
             <div class="ordertext">
                 <p class="textorder">
@@ -170,6 +170,22 @@
                 </p>
             </div>
         </div>
+        <div class="rating">
+            <h2 class="Sectionname">Oceń nas</h2>
+            <p class="ratingtext">Zachęcamy do zostawienia opinni na google</p>
+            <div class="ratingbutton">
+                <a href="https://search.google.com/local/writereview?placeid=TWOJ_PLACE_ID" target="_blank" class="review-btn">
+                    Oceń nas na Google
+                    <div class="stars">
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                  </a>
+            </div>
+        </div>
         
         {% endblock %}
     </main>
@@ -180,11 +196,11 @@
                 <img src="{% static 'logoboru.png' %}" alt="Logo">
             </div>
             <div class="naviend">
-                <a href="" class="fot-link">Strona Główna</a> 
-                <a href="" class="fot-link">O Nas</a> 
-                <a href="" class="fot-link">Menu</a> 
-                <a href="" class="fot-link">Zamów online</a>
-                <a href="" class="fot-link">Polityka prywatności</a>
+                <a href="{% url 'main' %}" class="fot-link">Strona Główna</a> 
+                <a href="{% url 'main' %}#about" class="fot-link">O Nas</a> 
+                <a href="{% url 'menu' %}" class="fot-link">Menu</a> 
+                <a href="{% url 'main' %}#order" class="fot-link">Zamów online</a>
+                <a href="{% url 'polityka_strony'%}" class="fot-link">Polityka prywatności</a>
             </div>
             <div class="social-media">
                 <a href="https://www.facebook.com/BoruRamenShop/" class="social-link" >

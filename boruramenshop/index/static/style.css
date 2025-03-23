@@ -2,7 +2,6 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 body {
     background: url("../static/black-paper.png"); 
@@ -241,16 +240,15 @@ header{
 /* about */
 .About {
     width: 900px;
-    height: 60vh;
+    height: 55vh;
     margin: 0 auto; 
-    
 }
 
 .Sectionname {
     text-align: center;
     font-size: 36px;
     color: #f5e8d2;
-    margin: 30px 0 50px 0;
+    margin: 100px 0 50px 0;
 }
 
 .info {
@@ -293,7 +291,7 @@ header{
     flex-direction: column;
     align-items: center;
     width: 900px;
-    height: 45vh;
+    height: 50vh;
     margin: 0 auto; 
 }
 
@@ -316,6 +314,7 @@ header{
 
 .fbtext, .igtext {
     width: 300px;
+    height: 100px;
     text-align: left;
     margin: 0 auto 30px;
     color: #f5e8d2;
@@ -468,7 +467,7 @@ header{
     width: 400px;
 }
 .recphoto {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 .link-menu {
@@ -703,9 +702,12 @@ header{
     height: 30vh;
 }
 .ratingtext{
+    width: 400px;
+    margin: 0 auto; 
     margin-bottom: 80px;
     text-align: center;
     color: #f5e8d2;
+    display: block; 
 }
 .ratingbutton{
     display: flex;

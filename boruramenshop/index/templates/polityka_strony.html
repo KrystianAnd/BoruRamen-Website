@@ -1,10 +1,29 @@
 {% extends 'main.html' %}
+{% load i18n %}
 {% block title %}Polityka strony{% endblock %}
 
 
 {% block main %}
 <div class="polityka">
-    <h2>Polityka strony</h2>
+    <h1>{% trans "Polityka Prywatności" %}</h1>
+    <div class="containerpolityka">
+        <h2 class="titlepolitic">{% trans "1. Informacje ogólne" %}</h2>
+        <p class="textpolitic">{% trans "Niniejsza polityka prywatności dotyczy strony internetowej" %} <strong>Bōru Ramen Shop</strong> {% trans "dostępnej pod adresem" %} <strong>boruramen.pl</strong>. {% trans "Szanujemy prywatność naszych użytkowników i nie gromadzimy ani nie przetwarzamy żadnych danych osobowych za pośrednictwem tej strony internetowej" %}.</p>
+        
+        <h2 class="titlepolitic">{% trans "2. Brak zbierania danych osobowych" %}</h2>
+        <p class="textpolitic">{% trans "Korzystanie ze strony" %} <strong>Bōru Ramen Shop</strong> {% trans "nie wymaga podawania żadnych danych osobowych. Nie stosujemy formularzy rejestracyjnych, rezerwacyjnych ani zapisów na newslettery." %}</p>
+        
+        <h2 class="titlepolitic">{% trans "3. Pliki cookies i technologie śledzące" %}</h2>
+        <p class="textpolitic">{% trans "Nasza strona nie używa plików cookies w celach analitycznych, reklamowych ani śledzących. Mogą być wykorzystywane jedynie podstawowe pliki cookies techniczne, niezbędne do prawidłowego działania strony." %}</p>
+        
+        <h2 class="titlepolitic">{% trans "4. Linki do stron trzecich" %}</h2>
+        <p class="textpolitic">{% trans "Nasza strona zawiera odnośniki do mediów społecznościowych (np. Facebook, Instagram) lub serwisów zewnętrznych (np. serwisy dostawcze). Korzystając z tych linków, użytkownik opuszcza naszą stronę, a dalsze przetwarzanie danych podlega polityce prywatności danej usługi." %}</p>
+        
+        <h2 class="titlepolitic">{% trans "5. Kontakt" %}</h2>
+        <p class="textpolitic">{% trans "W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności możesz skontaktować się z nami:" %}</p>
+        <p class="textpolitic">📍 <strong>Tadeusza Kościuszki 3, 20-006 Lublin </strong><br>
+        📞 <strong>507 030 411</strong></p>
+    </div>
 </div>
 
 {% endblock %}

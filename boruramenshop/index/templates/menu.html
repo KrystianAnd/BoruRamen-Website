@@ -1,4 +1,5 @@
 {% extends 'main.html' %}
+{% load i18n %}
 {% block title %}Menu{% endblock %}
 
 
@@ -7,578 +8,547 @@
     <h1 class="titlesite">Menu</h1>
     <div class="contenermenu">
         <div class="Name">
-            <h2>Boru Ramen Shop</h2>
+            <h2>Bōru Ramen Shop</h2>
         </div>
         <div class="navimenu">
-            <a href="{% url 'menu' %}#Przystawki" class="btn-53">
-                <div class="original">Przystawki</div>
-                <div class="letters">
-                    <span>P</span><span>R</span><span>Z</span><span>Y</span><span>S</span><span>T</span><span>A</span><span>W</span><span>K</span><span>I</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Dania_glowne" class="btn-53">
-                <div class="original">Dania główne</div>
-                <div class="letters">
-                    <span>D</span><span>A</span><span>N</span><span>I</span><span>A</span> <span>G</span><span>Ł</span><span>Ó</span><span>W</span><span>N</span><span>E</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Ramen" class="btn-53">
-                <div class="original">Ramen</div>
-                <div class="letters">
-                    <span>R</span><span>A</span><span>M</span><span>E</span><span>N</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Dodatki" class="btn-53">
-                <div class="original">Dodatki</div>
-                <div class="letters">
-                    <span>D</span><span>O</span><span>D</span><span>A</span><span>T</span><span>K</span><span>I</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Desery" class="btn-53">
-                <div class="original">Desery</div>
-                <div class="letters">
-                    <span>D</span><span>E</span><span>S</span><span>E</span><span>R</span><span>Y</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Napoje" class="btn-53">
-                <div class="original">Napoje</div>
-                <div class="letters">
-                    <span>N</span><span>A</span><span>P</span><span>O</span><span>J</span><span>E</span>
-                </div>
-            </a>
-            <a href="{% url 'menu' %}#Alkohole" class="btn-53">
-                <div class="original">Alkohole</div>
-                <div class="letters">
-                    <span>A</span><span>L</span><span>K</span><span>O</span><span>H</span><span>O</span><span>L</span><span>E</span>
-                </div>
-            </a>
-        </div>        
+            {% for category in categories %}
+                <a href="{% url 'menu' %}#{{ category.anchor }}" class="btn-53">
+                    <div class="original">{{ category.name }}</div>
+                    <div class="letters">
+                        {% for letter in category.name %}
+                            <span>{{ letter }}</span>
+                        {% endfor %}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        
         <div class="Menudescription">
-            <p class="textinmenu">Lista alergentów dostepna u obsługi <br>
-               Od 5 osób doliczamy do rachunku 10% opłaty za serwis 
+            <p class="textinmenu">{% trans "Lista alergentów dostepna u obsługi" %} <br>
+                {% trans "Od 5 osób doliczamy do rachunku 10% opłaty za serwis" %}
             </p>
         </div>
         <div class="przystawki">
-            <h2 class="category" id="Przystawki">Przystawki</h2>
+            <h2 class="category" id="Przystawki">{% trans "Przystawki" %}</h2>
             <ul class="ulmenu">
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Talerz przystawek</h3>
-                        <span class="price">75 zł</span>
+                        <h3 class="dish">{% trans "Talerz przystawek" %}</h3>
+                        <span class="price">75 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">sajgonki krewetki 4 szt, sajgonki warzywne 2 szt, tempura kalamar 4 szt, tempura kwiat 4 szt</p>
+                    <p class="ingredients">{% trans "sajgonki krewetki 4 szt, sajgonki warzywne 2 szt, tempura kalamar 4 szt, tempura kwiat 4 szt" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Tempura krewetki 3 szt</h3>
-                        <span class="price">27 zł</span>
-                    </div>
-                </li>
-                <li class="limenu">
-                    <div class="menu-item2">
-                        <h3 class="dish">Tempura kalamari 4 szt</h3>
-                        <span class="price">25 zł</span>
+                        <h3 class="dish">{% trans "Tempura krewetki 3 szt" %}</h3>
+                        <span class="price">27 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Warzywa w cieście tempura</h3>
-                        <span class="price">22 zł</span>
+                        <h3 class="dish">{% trans "Tempura kalamari 4 szt" %}</h3>
+                        <span class="price">25 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Sajgonki krewetki 4 szt</h3>
-                        <span class="price">25 zł</span>
+                        <h3 class="dish">{% trans "Warzywa w cieście tempura" %}</h3>
+                        <span class="price">22 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Sajgonki warzywa 2 szt</h3>
-                        <span class="price">24 zł</span>
+                        <h3 class="dish">{% trans "Sajgonki krewetki 4 szt" %}</h3>
+                        <span class="price">25 {% trans "zł" %}</span>
+                    </div>
+                </li>
+                <li class="limenu">
+                    <div class="menu-item2">
+                        <h3 class="dish">{% trans "Sajgonki warzywa 2 szt" %}</h3>
+                        <span class="price">24 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu"> 
                     <div class="menu-item2">
-                        <h3 class="dish">Edamame</h3>
-                        <span class="price">16 zł</span>
+                        <h3 class="dish">{% trans "Edamame" %}</h3>
+                        <span class="price">16 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Koreańskie kimchi</h3>
-                        <span class="price">17 zł</span>
+                        <h3 class="dish">{% trans "Koreańskie kimchi" %}</h3>
+                        <span class="price">17 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Pierożki z krewetkami 6 szt</h3>
-                        <span class="price">27 zł</span>
+                        <h3 class="dish">{% trans "Pierożki z krewetkami 6 szt" %}</h3>
+                        <span class="price">27 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Pierożki z kurczakiem 8 szt
+                        <h3 class="dish">{% trans "Pierożki z kurczakiem 8 szt" %}
                         </h3>
-                        <span class="price">40 zł</span>
+                        <span class="price">40 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Pierożki z wołowina 8 szt</h3>
-                        <span class="price">42 zł</span>
+                        <h3 class="dish">{% trans "Pierożki z wołowina 8 szt" %}</h3>
+                        <span class="price">42 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Chipsy krewetkowe</h3>
-                        <span class="price">15 zł</span>
+                        <h3 class="dish">{% trans "Chipsy krewetkowe" %}</h3>
+                        <span class="price">15 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Zupa miso</h3>
-                        <span class="price">22 zł</span>
+                        <h3 class="dish">{% trans "Zupa miso" %}</h3>
+                        <span class="price">22 {% trans "zł" %}</span>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="dania_glowne" >
-            <h2 class="category" id="Dania_glowne">Dania główne</h2>
+            <h2 class="category" id="Dania_glowne">{% trans "Dania główne" %}</h2>
             <ul class="ulmenu">
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Tori sweet</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Tori sweet" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">spiringrolls krewetki 4 szt, spiringroll warzywa 2 szt, tempura kalamar 4 szt, tempura kwiat 4 szt</p>
+                    <p class="ingredients">{% trans "spiringrolls krewetki 4 szt, spiringroll warzywa 2 szt, tempura kalamar 4 szt, tempura kwiat 4 szt" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Boru tori</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Boru tori" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">chrupicy kurczak, miska ryżu jaśminowego, łagodny słodki sos</p>
+                    <p class="ingredients">{% trans "chrupicy kurczak, miska ryżu jaśminowego, łagodny słodki sos" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Basilya chicken</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Basilya chicken" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, sos ostrygowy, kurczak, fasola, papryka, cebula, marchewka, bazylia</p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, sos ostrygowy, kurczak, fasola, papryka, cebula, marchewka, bazylia" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Basilya tofu 🍃</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Basilya tofu 🍃" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, sos ostrygowy, tofu, fasola, papryka, cebula, marchewka, bazylia</p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, sos ostrygowy, tofu, fasola, papryka, cebula, marchewka, bazylia" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Czerowne curry kurczak 🌶</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Czerowne curry kurczak 🌶" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, mleko kokosowe, kurczak, fasola, papryka, marchewka, bazylia </p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, mleko kokosowe, kurczak, fasola, papryka, marchewka, bazylia" %} </p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Czerowne curry tofu 🍃 🌶</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Czerowne curry tofu 🍃 🌶" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, mleko kokosowe, tofu, fasola, papryka, marchewka, bazylia </p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, mleko kokosowe, tofu, fasola, papryka, marchewka, bazylia" %} </p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Czerowne curry krewetki 🌶
+                        <h3 class="dish">{% trans "Czerowne curry krewetki 🌶" %}
                         </h3>
-                        <span class="price">41 zł</span>
+                        <span class="price">41 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, mleko kokosowe, krewetki, fasola, papryka, marchewka, bazylia </p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, mleko kokosowe, krewetki, fasola, papryka, marchewka, bazylia" %} </p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Chowmien kurczak 🌶🌶</h3>
-                        <span class="price">40 zł</span>
+                        <h3 class="dish">{% trans "Chowmien kurczak 🌶🌶" %}</h3>
+                        <span class="price">40 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">uzupełnić składniki</p>
+                    <p class="ingredients">{% trans "uzupełnić składniki" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Chowmien tofu 🍃 🌶🌶</h3>
-                        <span class="price">40 zł</span>
+                        <h3 class="dish">{% trans "Chowmien tofu 🍃 🌶🌶" %}</h3>
+                        <span class="price">40 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">uzupełnić składniki</p>
+                    <p class="ingredients">{% trans "uzupełnić składniki" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Chowmien krewetki 🌶🌶</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Chowmien krewetki 🌶🌶" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">uzupełnić składniki</p>
+                    <p class="ingredients">{% trans "uzupełnić składniki" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Ryż tonkatsu</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Ryż tonkatsu" %}</h3>
+                        <span class="price">39 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy, chrupiacy kotlet wieprzowy, sos katsu</p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy, chrupiacy kotlet wieprzowy, sos katsu" %}</p>
                 </li>
                 <li class="limenu"> 
                     <div class="menu-item">
-                        <h3 class="dish">Cripy tofu katsu 🍃</h3>
-                        <span class="price">38 zł</span>
+                        <h3 class="dish">{% trans "Cripy tofu katsu 🍃" %}</h3>
+                        <span class="price">38 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy,chrupiące tofu, sos katsu</p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy,chrupiące tofu, sos katsu" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Łosoś katsu 🌶</h3>
-                        <span class="price">62 zł</span>
+                        <h3 class="dish">{% trans "Łosoś katsu 🌶" %}</h3>
+                        <span class="price">62 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Ryż jaśminowy,chrupiący łosoś, sos katsu</p>
+                    <p class="ingredients">{% trans "Ryż jaśminowy,chrupiący łosoś, sos katsu" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Yaki udon z krewetkami</h3>
-                        <span class="price">45 zł</span>
+                        <h3 class="dish">{% trans "Yaki udon z krewetkami" %}</h3>
+                        <span class="price">45 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">uzupełnić składniki </p>
+                    <p class="ingredients">{% trans "uzupełnić składniki" %} </p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Yaki udon z wołowiną</h3>
-                        <span class="price">45 zł</span>
+                        <h3 class="dish">{% trans "Yaki udon z wołowiną" %}</h3>
+                        <span class="price">45 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">uzupełnić składniki</p>
+                    <p class="ingredients">{% trans "uzupełnić składniki" %}</p>
                 </li>
             </ul>
         </div>
         <div class="Ramen">
-            <h2 class="category" id="Ramen">Ramen</h2>
+            <h2 class="category" id="Ramen">{% trans "Ramen" %}</h2>
             <ul class="ulmenu">
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Tonkotsu Ranem</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Tonkotsu Ranem" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Chasu, szczypiorek, grzyby mun, pędy bambusa, marynowane jajko, bulion jajeczny z wieprzowiny</p>
+                    <p class="ingredients">{% trans "Chasu, szczypiorek, grzyby mun, pędy bambusa, marynowane jajko, bulion jajeczny z wieprzowiny" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Szechuan Korean Ramen 🌶🌶🌶</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Szechuan Korean Ramen 🌶🌶🌶" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Chasu, szczypiorek, kiełki, różowy imbir, marynowane jajka, bulion wieprzowy</p>
+                    <p class="ingredients">{% trans "Chasu, szczypiorek, kiełki, różowy imbir, marynowane jajka, bulion wieprzowy" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Tantamen Ramen</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Tantamen Ramen" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">mielona wieprzowina, szczypiorek, marynowane kiełki, marynowane jajka, bulion wieprzowy</p>
+                    <p class="ingredients">{% trans "mielona wieprzowina, szczypiorek, marynowane kiełki, marynowane jajka, bulion wieprzowy" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Nissokhu Ramen</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Nissokhu Ramen" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Krewetki Nobashi, szczypiorek, kiełki, małże, grillowana cytryna, bulion z kurczaka</p>
+                    <p class="ingredients">{% trans "Krewetki Nobashi, szczypiorek, kiełki, małże, grillowana cytryna, bulion z kurczaka" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Shoyu Assari Ramen</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Shoyu Assari Ramen" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">chasu, szczypiorek, kiełki, marynowane jajko, bulion z kurczaka
+                    <p class="ingredients">{% trans "chasu, szczypiorek, kiełki, marynowane jajko, bulion z kurczaka" %}
                     </p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Spicy Miso Ramen 🌶</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Spicy Miso Ramen 🌶" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
                     <p class="ingredients">
-                        marynowany kurczak w sosie sambal, szczypiorek, marynowane kiełki, różowy imbir, marynowane jajka, bulion wieprzowy
+                        {% trans "marynowany kurczak w sosie sambal, szczypiorek, marynowane kiełki, różowy imbir, marynowane jajka, bulion wieprzowy" %}
                     </p>
                 </li>
                 <li class="limenu"> 
                     <div class="menu-item">
-                        <h3 class="dish">BBQ Ramen</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "BBQ Ramen" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Żeberka wieprzowe bez kości, szczypiorek, różowy imbir kanpyo, marynowane jajka, bulion wieprzowy</p>
+                    <p class="ingredients">{% trans "Żeberka wieprzowe bez kości, szczypiorek, różowy imbir kanpyo, marynowane jajka, bulion wieprzowy" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Beef Ramen 🌶🌶</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Beef Ramen 🌶🌶" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Gulasz wołowy, szczypiorek, kielki, marynowane jajko, kapusta pekińska, bulion wołowy</p>
+                    <p class="ingredients">{% trans "Gulasz wołowy, szczypiorek, kielki, marynowane jajko, kapusta pekińska, bulion wołowy" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Vegan Tantamen Ramen 🍃</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Vegan Tantamen Ramen 🍃" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Kurczak wegański, grzyby shitake, szczypiorek, kiełki edamame, bulion zamówienia z mieszanych grzybów</p>
+                    <p class="ingredients">{% trans "Kurczak wegański, grzyby shitake, szczypiorek, kiełki edamame, bulion zamówienia z mieszanych grzybów" %}</p>
                 </li>
                 <li class="limenu">
                     <div class="menu-item">
-                        <h3 class="dish">Szechuan Korean Vegan Ramen 🍃 🌶🌶🌶</h3>
-                        <span class="price">44 zł</span>
+                        <h3 class="dish">{% trans "Szechuan Korean Vegan Ramen 🍃 🌶🌶🌶" %}</h3>
+                        <span class="price">44 {% trans "zł" %}</span>
                     </div>
-                    <p class="ingredients">Kurczak wegański, grzyby shitake, szczypiorek, kiełki edamame, bulion zamówienia z mieszanych grzybów</p>
+                    <p class="ingredients">{% trans "Kurczak wegański, grzyby shitake, szczypiorek, kiełki edamame, bulion zamówienia z mieszanych grzybów" %}</p>
                 </li>
             </ul>
         </div>
         <div class="dodatki">
-            <h2 class="category" id="Dodatki">Dodatki do Ramenu</h2>
+            <h2 class="category" id="Dodatki">{% trans "Dodatki do Ramenu" %}</h2>
             <ul class="ulmenu">
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Mięso</h3>
-                        <span class="price">13 zł</span>
+                        <h3 class="dish">{% trans "Mięso" %}</h3>
+                        <span class="price">13 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Jajko</h3>
-                        <span class="price">7 zł</span>
+                        <h3 class="dish">{% trans "Jajko" %}</h3>
+                        <span class="price">7 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Makaron</h3>
-                        <span class="price">13 zł</span>
+                        <h3 class="dish">{% trans "Makaron" %}</h3>
+                        <span class="price">13 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Ryż</h3>
-                        <span class="price">8 zł</span>
+                        <h3 class="dish">{% trans "Ryż" %}</h3>
+                        <span class="price">8 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Łosoś</h3>
-                        <span class="price">32 zł</span>
+                        <h3 class="dish">{% trans "Łosoś" %}</h3>
+                        <span class="price">32 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Krewetki</h3>
-                        <span class="price">15 zł</span>
+                        <h3 class="dish">{% trans "Krewetki" %}</h3>
+                        <span class="price">15 {% trans "zł" %}</span>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="desery">
-            <h2 class="category" id="Desery">Desery</h2>
+            <h2 class="category" id="Desery">{% trans "Desery" %}</h2>
             <ul class="ulmenu">
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Banana Tempura</h3>
-                        <span class="price">21 zł</span>
+                        <h3 class="dish">{% trans "Banan w Tempurze" %}</h3>
+                        <span class="price">21 {% trans "zł" %}</span>
                     </div>
                 </li>
                 <li class="limenu">
                     <div class="menu-item2">
-                        <h3 class="dish">Coconut ice-cream</h3>
-                        <span class="price">19 zł</span>
+                        <h3 class="dish">{% trans "Lody kokosowe" %}</h3>
+                        <span class="price">19 {% trans "zł" %}</span>
                     </div>
                 </li>
             </ul>
         </div>
         <div class="napoje">
-            <h2 class="category" id="Napoje">Napoje Bezalkoholowe</h2>
+            <h2 class="category" id="Napoje">{% trans "Napoje Bezalkoholowe" %}</h2>
             <div class="icetea">
-                <h3 class="lilcategory">Ice Tea </h3>
+                <h3 class="lilcategory">{% trans "Ice Tea" %} </h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Czarna Mrożona Herbata</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Czarna Mrożona Herbata" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Zielona Mrożona  Herbata</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Zielona Mrożona  Herbata" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Czarna Mrożona Herbata z mlekiem</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Czarna Mrożona Herbata z mlekiem" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Zielona Mrożona  Herbata z mlekiem</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Zielona Mrożona  Herbata z mlekiem" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Matcha Latte</h3>
-                            <span class="price">20 zł</span>
+                            <h3 class="dish">{% trans "Matcha Latte" %}</h3>
+                            <span class="price">20 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Taro Milk</h3>
-                            <span class="price">20 zł</span>
+                            <h3 class="dish">{% trans "Taro Milk" %}</h3>
+                            <span class="price">20 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="herbata">
-                <h3 class="lilcategory">Herbaty</h3>
+                <h3 class="lilcategory">{% trans "Herbaty" %}</h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Sencha Zielona</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Sencha Zielona" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Sencha Jaśminowa</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Sencha Jaśminowa" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Sencha Wiśniowa</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Sencha Wiśniowa" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Sencha Gainmatcha</h3>
-                            <span class="price">15 zł</span>
+                            <h3 class="dish">{% trans "Sencha Gainmatcha" %}</h3>
+                            <span class="price">15 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="woda">
-                <h3 class="lilcategory">Woda </h3>
+                <h3 class="lilcategory">{% trans "Woda" %} </h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Woda Niegazowana 300ml</h3>
-                            <span class="price">9 zł</span>
+                            <h3 class="dish">{% trans "Woda Niegazowana 300ml" %}</h3>
+                            <span class="price">9 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Woda Niegazowana 700ml</h3>
-                            <span class="price">13 zł</span>
+                            <h3 class="dish">{% trans "Woda Niegazowana 700ml" %}</h3>
+                            <span class="price">13 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Woda Gazowana 300ml</h3>
-                            <span class="price">9 zł</span>
+                            <h3 class="dish">Woda Gazowana 300ml" %}</h3>
+                            <span class="price">9 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Woda Niegazowana 700ml</h3>
-                            <span class="price">13 zł</span>
+                            <h3 class="dish">{% trans "Woda Niegazowana 700ml" %}</h3>
+                            <span class="price">13 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="softdrink">
-                <h3 class="lilcategory">Soft drink</h3>
+                <h3 class="lilcategory">{% trans "Soft drink" %}</h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Japoński lemonade Ramuan 200ml</h3>
-                            <span class="price">16 zł</span>
+                            <h3 class="dish">{% trans "Japoński lemonade Ramuan 200ml" %}</h3>
+                            <span class="price">16 {% trans "zł" %}</span>
                         </div>
                         <p class="ingredients"></p>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Aloe-vera 500ml</h3>
-                            <span class="price">16 zł</span>
+                            <h3 class="dish">{% trans "Aloe-vera 500ml" %}</h3>
+                            <span class="price">16 {% trans "zł" %}</span>
                         </div>
                         <p class="ingredients"></p>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Aloe-vera 1 litr</h3>
-                            <span class="price">30 zł</span>
+                            <h3 class="dish">{% trans "Aloe-vera 1 litr" %}</h3>
+                            <span class="price">30 {% trans "zł" %}</span>
                         </div>
                         <p class="ingredients"></p>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Cocacola 250mlr</h3>
-                            <span class="price">9 zł</span>
+                            <h3 class="dish">{% trans "Cocacola 250ml" %}</h3>
+                            <span class="price">9 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Cocaola 500ml</h3>
-                            <span class="price">13 zł</span>
+                            <h3 class="dish">{% trans "Cocaola 500ml" %}</h3>
+                            <span class="price">13 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="alkohole">
-            <h2 class="category" id="Alkohole">Alkohole</h2>
+            <h2 class="category" id="Alkohole">{% trans "Alkohole" %}</h2>
             <p class="alkodescription">
-                Nie sprzedajemy alkoholu osobom niepełnoletnim <br>
-                Nie sprzedajemy alkoholu osobom nietrzeźwym 
+                {% trans "Nie sprzedajemy alkoholu osobom niepełnoletnim" %} <br><br>
+                {% trans "Nie sprzedajemy alkoholu osobom nietrzeźwym" %} 
             </p>
 
             <div class="piwo">
-                <h3 class="lilcategory">Piwo</h3>
+                <h3 class="lilcategory">{% trans "Piwo" %}</h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Asahi super dry 330ml</h3>
-                            <span class="price">16 zł</span>
+                            <h3 class="dish">{% trans "Asahi super dry 330ml" %}</h3>
+                            <span class="price">16 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Kirin 330ml</h3>
-                            <span class="price">16 zł</span>
+                            <h3 class="dish">{% trans "Kirin 330ml" %}</h3>
+                            <span class="price">16 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Kirin 330ml 0%</h3>
-                            <span class="price">16 zł</span>
+                            <h3 class="dish">{% trans "Kirin 330ml 0% " %}</h3>
+                            <span class="price">16 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="wino">
-                <h3 class="lilcategory">Wino</h3>
+                <h3 class="lilcategory">{% trans "Wino" %}</h3>
                 <ul class="ulmenu">
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Choya 150ml</h3>
-                            <span class="price">14 zł</span>
+                            <h3 class="dish">{% trans "Choya 150ml" %}</h3>
+                            <span class="price">14 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Choya 500ml</h3>
-                            <span class="price">37 zł</span>
+                            <h3 class="dish">{% trans "Choya 500ml" %}</h3>
+                            <span class="price">37 {% trans "zł" %}</span>
                         </div>
                     </li>
                     <li class="limenu">
                         <div class="menu-item2">
-                            <h3 class="dish">Choya original 500ml butelka </h3>
-                            <span class="price">48 zł</span>
+                            <h3 class="dish">{% trans "Choya original 500ml butelka" %} </h3>
+                            <span class="price">48 {% trans "zł" %}</span>
                         </div>
                     </li>
                 </ul>

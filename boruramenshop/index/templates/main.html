@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="pl-PL">
@@ -15,11 +16,17 @@
             <div class="logo">
                 <img src="{% static 'logoboru.png' %}" alt="Logo">
             </div>
+            <label class="burger" for="burger">
+                <input type="checkbox" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
             <div class="navi">
-                <a href="{% url 'main' %}" class="navi-link">Strona Główna</a> 
-                <a href="{% url 'main' %}#about" class="navi-link">O Nas</a> 
-                <a href="{% url 'menu' %}" class="navi-link">Menu</a> 
-                <a href="{% url 'main' %}#order" class="navi-link">Zamów onlinie</a> 
+                <a href="{% url 'main' %}" class="navi-link">{% trans "Strona Główna" %}</a> 
+                <a href="{% url 'main' %}#about" class="navi-link">{% trans "O Nas" %}</a> 
+                <a href="{% url 'menu' %}" class="navi-link">{% trans "Menu" %}</a> 
+                <a href="{% url 'main' %}#order" class="navi-link">{% trans "Zamów onlinie" %}</a> 
             </div>
             <div class="language">
                 <button id="pl" class="language-btn">
@@ -43,27 +50,27 @@
         
             <div class="overlay">
                 <div class="slogan">
-                    <h1>Głęboki smak Japonii w każdej misce</h1>
+                    <h1>{% trans "Głęboki smak Japonii w każdej misce" %}</h1>
                     <img src="{% static 'kot.png' %}" alt="Cat" class="introcat">
                 </div>
                 <div class="Name">
-                    <h2>Boru Ramen Shop</h2>
+                    <h2>Bōru Ramen Shop</h2>
                 </div>
             </div>  
         </div>
         <div class="About" id="about" >
-            <h2 class="Sectionname">O Nas</h2>
+            <h2 class="Sectionname">{% trans "O Nas" %}</h2>
             <div class="info">
                 <div class="info-container">
                     <h3 class="infoneme">
-                        Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich zupach ramen oraz yaki udon.
+                        {% trans "Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich zupach ramen oraz yaki udon." %}
                     </h3>
                     <p class="infotext">
-                    Znajdziesz nas na ulicy: Kosciuszki 3 Lublin<br>
-                    <br>Jesteśmy otwarci od poniedziałku do niedzieli<br>
-                    W godzinach 12.00-21.30 <br><br>
-                    Telefon kontaktowy: 507 030 411 <br><br>
-                    W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie.
+                        {% trans "Znajdziesz nas na ulicy: " %} <strong>Kosciuszki 3 Lublin</strong> <br>
+                    <br>{% trans "Jesteśmy otwarci "%}  <strong>{% trans "od poniedziałku do niedzieli" %}</strong>  <br>
+                    {% trans "W godzinach <strong>12.00-21.30</strong>" %} <br><br>
+                    {% trans "Telefon kontaktowy: <strong>507 030 411 </strong>" %} <br><br>
+                    {% trans "W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie." %}
                     </p>
                 </div>
                 <div class="map-container">
@@ -75,11 +82,11 @@
         </div>
         
         <div class="socials">
-            <h2 class="Sectionname">Nasze Social Media</h2> 
+            <h2 class="Sectionname">{% trans "Nasze Social Media" %}</h2> 
                 <div class ="solialscontener">
                     <div class="fb">
-                        <h3 class="fbtop">Nasz Facebook</h3>
-                        <p class="fbtext">Dołącz do naszej społeczności i bądź na bieżąco z nowymi ramenami, pysznymi dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych inspiracji! </p>
+                        <h3 class="fbtop">{% trans "Nasz Facebook" %}</h3>
+                        <p class="fbtext">{% trans "Dołącz do naszej społeczności i bądź na bieżąco z nowymi ramenami, pysznymi dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych inspiracji!" %}</p>
                         <ul class="fbul">
                             <li class="fbli">
                               <a class="facebook" href="https://www.facebook.com/BoruRamenShop/" target="_blank">
@@ -93,8 +100,8 @@
                           </ul>
                     </div> 
                     <div class="ig">
-                        <h3 class="igtop">Nasz Instagram</h3>
-                        <p class="igtext">Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i apetyczne zdjęcia, które rozbudzą Twój apetyt!</p>
+                        <h3 class="igtop">{% trans "Nasz Instagram" %}</h3>
+                        <p class="igtext">{% trans "Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i apetyczne zdjęcia, które rozbudzą Twój apetyt!" %}</p>
                         <ul class="igul">
                             <li class="igli">
                                 <a class="instagram" href="https://www.instagram.com/boruramenshop/" target="_blank">
@@ -111,18 +118,17 @@
                 </div>
         </div>
         <div class="menu">
-            <h2 class="Sectionname">Menu</h2>
+            <h2 class="Sectionname">{% trans "Menu" %}</h2>
             <div class="menucontainer">
                 <div class="Recomendation">
                     <h3 class="recomendationname">
-                        Rekomendacje
+                        {% trans "Rekomendacje" %}
                     </h3>
                     <p class="recomendationtext">
-                        Polecamy :<br><br>
-                        BBQ Ramen <br>
-                        Odkryj nasz wyjątkowy BBQ Ramen! 🍜🔥 Soczyste żeberka wieprzowe bez kości, delikatny szczypiorek, aromatyczny różowy imbir kanpyo oraz marynowane jajko w połączeniu z bogatym bulionem wieprzowym tworzą prawdziwą ucztę dla podniebienia. Przyjdź i daj się porwać tej pysznej harmonii smaków!<br><br>
-                        Zielona Ice Tea<br>
-                        Dopełnij swoje rameny odświeżającą Zieloną Herbatą 🍵✨ Jej subtelny, naturalny smak idealnie komponuje się z aromatem naszego ramen i sprawi, że każda chwila posiłku stanie się jeszcze przyjemniejsza!
+                       <strong>{% trans "BBQ Ramen" %} <br></strong> 
+                        {% trans "Odkryj nasz wyjątkowy BBQ Ramen! 🍜🔥 Soczyste żeberka wieprzowe bez kości, delikatny szczypiorek, aromatyczny różowy imbir kanpyo oraz marynowane jajko w połączeniu z bogatym bulionem wieprzowym tworzą prawdziwą ucztę dla podniebienia. Przyjdź i daj się porwać tej pysznej harmonii smaków!" %}<br><br>
+                        <strong>{% trans "Zielona Ice Tea" %}<br></strong>
+                        {% trans "Dopełnij swoje rameny odświeżającą Zieloną Herbatą 🍵✨ Jej subtelny, naturalny smak idealnie komponuje się z aromatem naszego ramen i sprawi, że każda chwila posiłku stanie się jeszcze przyjemniejsza!" %}
                         
                     </p>
                 </div>
@@ -131,10 +137,10 @@
                 </div>
                 <div class="menulink">
                     <h3 class="linkmenu">
-                        Całe menu zobaczysz tutaj
+                        {% trans "Całe menu zobaczysz tutaj" %}
                     </h3>
                     <div class="link-menu">
-                        <a href="{% url 'menu' %}" class="menubtn">Menu</a>
+                        <a href="{% url 'menu' %}" class="menubtn">{% trans "Menu" %}</a>
                         <span class="arrow first"><i class="fa-solid fa-arrow-right"></i></span>
                         <span class="arrow second"><i class="fa-solid fa-arrow-right"></i></span>
                         <span class="arrow third"><i class="fa-solid fa-arrow-right"></i></span>
@@ -144,18 +150,18 @@
             </div>  
         </div>
         <div class="order" id="order">
-            <h2 class="Sectionname">Zamów onlinie</h2>
+            <h2 class="Sectionname">{% trans "Zamów onlinie" %}</h2>
             <div class="ordertext">
                 <p class="textorder">
-                Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji. <br>
-                Chcesz zamówić ramen do domu? 🍜 Skorzystaj z Pyszne.pl lub Uber Eats. A jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – przygotujemy wszystko na czas! 
+                    {% trans "Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji." %} <br>
+                    {% trans "Chcesz zamówić ramen do domu? 🍜 Skorzystaj z Pyszne.pl lub Uber Eats. A jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – przygotujemy wszystko na czas! " %}
 
                 </p>
             </div>
             <div class="orderlinks">
                 <div class="pyszne">
                     <a href="https://www.pyszne.pl/menu/boru-ramen-shop-lublin" class="pysznelink" target="_blank">
-                        <span class="text">Zamów przez Pyszne pl</span>
+                        <span class="text">{% trans "Zamów przez Pyszne pl" %}</span>
                         <div class="icons">
                             <i class="fa-solid fa-motorcycle"></i>
                             <i class="fa-solid fa-house"></i>
@@ -164,7 +170,7 @@
                 </div>
                 <div class="uber">
                     <a href="https://www.ubereats.com/pl/store/boru-ramen-shop-lublin/vl46od_0Tq-J3v8Ez6-XHw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMnVsaWNhJTIwV2luY2VudGVnbyUyMFdpdG9zYSUyMDFEJTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZmFkYWIyODItN2NlZC1iY2ViLTVlNzItNzAyY2ExYjFlZjljJTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E1MS4yMjAwMiUyQyUyMmxvbmdpdHVkZSUyMiUzQTIyLjcxMzU2JTdE" class="uberlink" target="_blank">
-                        <span class="text">Zamów przez Uber Eats</span>
+                        <span class="text">{% trans "Zamów przez Uber Eats" %}</span>
                         <div class="iconsub">
                             <i class="fa-solid fa-motorcycle"></i>
                             <i class="fa-solid fa-house"></i>
@@ -174,21 +180,20 @@
             </div>
         </div>
         <div class="reservation">
-            <h2 class="Sectionname">Rezerwacje</h2>
+            <h2 class="Sectionname">{% trans "Rezerwacje" %}</h2>
             <div class="rezerwacja">
                 <p class="rezerwacjatext">
-                    Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊🥢
+                    {% trans "Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊🥢" %}
                 </p>
             </div>
         </div>
         <div class="rating">
-            <h2 class="Sectionname">Oceń nas</h2>
-            <p class="ratingtext">Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜
-                
+            <h2 class="Sectionname">{% trans "Oceń nas" %}</h2>
+            <p class="ratingtext">{% trans "Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜" %}
             </p>
             <div class="ratingbutton">
-                <a href="https://search.google.com/local/writereview?placeid=TWOJ_PLACE_ID" target="_blank" class="review-btn">
-                    Oceń nas na Google
+                <a href="https://search.google.com/local/writereview?placeid=ChIJm1FyNatXIkcRkIBZIokBJtE" target="_blank" class="review-btn">
+                    {% trans "Oceń nas na Google" %}
                     <div class="stars">
                       <i class="fa-regular fa-star"></i>
                       <i class="fa-regular fa-star"></i>
@@ -209,11 +214,11 @@
                 <img src="{% static 'logoboru.png' %}" alt="Logo">
             </div>
             <div class="naviend">
-                <a href="{% url 'main' %}" class="fot-link">Strona Główna</a> 
-                <a href="{% url 'main' %}#about" class="fot-link">O Nas</a> 
-                <a href="{% url 'menu' %}" class="fot-link">Menu</a> 
-                <a href="{% url 'main' %}#order" class="fot-link">Zamów online</a>
-                <a href="{% url 'polityka_strony'%}" class="fot-link">Polityka prywatności</a>
+                <a href="{% url 'main' %}" class="fot-link">{% trans "Strona Główna" %}</a> 
+                <a href="{% url 'main' %}#about" class="fot-link">{% trans "O Nas" %}</a> 
+                <a href="{% url 'menu' %}" class="fot-link">{% trans "Menu" %}</a> 
+                <a href="{% url 'main' %}#order" class="fot-link">{% trans "Zamów online" %}</a>
+                <a href="{% url 'polityka_strony'%}" class="fot-link">{% trans "Polityka prywatności" %}</a>
             </div>
             <div class="social-media">
                 <a href="https://www.facebook.com/BoruRamenShop/" class="social-link" >
@@ -225,9 +230,10 @@
             </div>            
 
         </div>
-        <p>2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone.</p>
+        <p>{% trans "2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone." %}</p>
 
         {% endblock %}
     </footer>
+    <script src="{% static 'script.js' %}"></script>
 </body>
 </html>

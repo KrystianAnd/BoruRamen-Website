@@ -1,0 +1,804 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-25 18:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index/templates/main.html:20 index/templates/main.html:212
+msgid "Strona Główna"
+msgstr "Home"
+
+#: index/templates/main.html:21 index/templates/main.html:56
+#: index/templates/main.html:213
+msgid "O Nas"
+msgstr "About Us"
+
+#: index/templates/main.html:22 index/templates/main.html:115
+#: index/templates/main.html:138 index/templates/main.html:214
+msgid "Menu"
+msgstr "Menu"
+
+#: index/templates/main.html:23 index/templates/main.html:148
+msgid "Zamów onlinie"
+msgstr "Order Online"
+
+#: index/templates/main.html:47
+msgid "Głęboki smak Japonii w każdej misce"
+msgstr "The deep taste of Japan in every bowl"
+
+#: index/templates/main.html:60
+msgid ""
+"Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich "
+"zupach ramen oraz yaki udon."
+msgstr ""
+"We are a restaurant in Lublin specializing in traditional Japanese ramen "
+"soups and yaki udon."
+
+#: index/templates/main.html:63
+msgid "Znajdziesz nas na ulicy: "
+msgstr "You can find us at: "
+
+#: index/templates/main.html:64
+msgid "Jesteśmy otwarci "
+msgstr "We are open "
+
+#: index/templates/main.html:64
+msgid "od poniedziałku do niedzieli"
+msgstr "from Monday to Sunday"
+
+#: index/templates/main.html:65
+msgid "W godzinach <strong>12.00-21.30</strong>"
+msgstr "From 12:00 PM to 9:30 PM"
+
+#: index/templates/main.html:66
+msgid "Telefon kontaktowy: <strong>507 030 411 </strong>"
+msgstr "Contact number : <strong>+48 507 030 411 </strong>"
+
+#: index/templates/main.html:67
+msgid ""
+"W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie."
+msgstr "In our restaurant, pets are just as welcome as their owners."
+
+#: index/templates/main.html:79
+msgid "Nasze Social Media"
+msgstr "Our Social Media"
+
+#: index/templates/main.html:82
+msgid "Nasz Facebook"
+msgstr "Our Facebook"
+
+#: index/templates/main.html:83
+msgid ""
+"Dołącz do naszej społeczności i bądź na bieżąco z nowymi ramenami, pysznymi "
+"dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych "
+"inspiracji!"
+msgstr ""
+"Join our community and stay updated on new ramen dishes, delicious toppings, "
+"and exclusive promotions. Follow us to never miss ramen inspirations!"
+
+#: index/templates/main.html:97
+msgid "Nasz Instagram"
+msgstr "Our Instagram"
+
+#: index/templates/main.html:98
+msgid ""
+"Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i "
+"apetyczne zdjęcia, które rozbudzą Twój apetyt!"
+msgstr ""
+"Follow us on Instagram to discover tasty new dishes, behind-the-scenes "
+"kitchen moments, and mouthwatering photos that will whet your appetite!"
+
+#: index/templates/main.html:119
+msgid "Rekomendacje"
+msgstr "Recommendations"
+
+#: index/templates/main.html:122
+msgid "Polecamy :"
+msgstr "We recommend:"
+
+#: index/templates/main.html:123 index/templates/menu.html:277
+msgid "BBQ Ramen"
+msgstr "BBQ Ramen"
+
+#: index/templates/main.html:124
+msgid ""
+"Odkryj nasz wyjątkowy BBQ Ramen! 🍜🔥 Soczyste żeberka wieprzowe bez kości, "
+"delikatny szczypiorek, aromatyczny różowy imbir kanpyo oraz marynowane jajko "
+"w połączeniu z bogatym bulionem wieprzowym tworzą prawdziwą ucztę dla "
+"podniebienia. Przyjdź i daj się porwać tej pysznej harmonii smaków!"
+msgstr ""
+"Discover our unique BBQ Ramen! 🍜🔥 Juicy boneless pork ribs, delicate "
+"chives, aromatic pink kanpyo ginger, and marinated egg combined with rich "
+"pork broth create a true feast for the senses. Come and indulge in this "
+"delicious harmony of flavors!"
+
+#: index/templates/main.html:125
+msgid "Zielona Ice Tea"
+msgstr "Green Ice Tea"
+
+#: index/templates/main.html:126
+msgid ""
+"Dopełnij swoje rameny odświeżającą Zieloną Herbatą 🍵✨ Jej subtelny, "
+"naturalny smak idealnie komponuje się z aromatem naszego ramen i sprawi, że "
+"każda chwila posiłku stanie się jeszcze przyjemniejsza!"
+msgstr ""
+"Complete your ramen experience with refreshing Green Tea 🍵✨ Its subtle, "
+"natural flavor perfectly complements the aroma of our ramen, making every "
+"meal even more enjoyable!"
+
+#: index/templates/main.html:135
+msgid "Całe menu zobaczysz tutaj"
+msgstr "See the full menu here"
+
+#: index/templates/main.html:151
+msgid "Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji."
+msgstr "At the moment, we do not offer direct delivery from the restaurant."
+
+#: index/templates/main.html:152
+msgid ""
+"Chcesz zamówić ramen do domu? 🍜 Skorzystaj z Pyszne.pl lub Uber Eats. A "
+"jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – "
+"przygotujemy wszystko na czas! "
+msgstr ""
+"Want to order ramen at home? 🍜 Use Pyszne.pl or Uber Eats. If you prefer to "
+"pick it up yourself, call us at +48 507 030 411 – we’ll have everything "
+"ready on time!"
+
+#: index/templates/main.html:159
+msgid "Zamów przez Pyszne pl"
+msgstr "Order via Pyszne.pl"
+
+#: index/templates/main.html:168
+msgid "Zamów przez Uber Eats"
+msgstr "Order via Uber Eats"
+
+#: index/templates/main.html:178
+msgid "Rezerwacje"
+msgstr "Reservations"
+
+#: index/templates/main.html:181
+msgid ""
+"Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊"
+"🥢"
+msgstr ""
+"Want to book a table? 📞✨ Call us, and we'll take care of the rest! 😊🥢"
+
+#: index/templates/main.html:186
+msgid "Oceń nas"
+msgstr "Rate us"
+
+#: index/templates/main.html:187
+msgid ""
+"Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, "
+"podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜"
+msgstr ""
+"Your opinion means a lot to us! 💬✨ If you enjoyed your meal, share your "
+"review on Google – we would really appreciate it! 😊🍜"
+
+#: index/templates/main.html:191
+msgid "Oceń nas na Google"
+msgstr "Rate us on Google"
+
+#: index/templates/main.html:215
+msgid "Zamów online"
+msgstr "Order online"
+
+#: index/templates/main.html:216
+msgid "Polityka prywatności"
+msgstr "Privacy Policy"
+
+#: index/templates/main.html:228
+msgid "2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone."
+msgstr "2025 Boru Ramen Shop. All rights reserved."
+
+#: index/templates/menu.html:27
+msgid "Lista alergentów dostepna u obsługi"
+msgstr "Allergen list available from staff"
+
+#: index/templates/menu.html:28
+#, python-format
+msgid "Od 5 osób doliczamy do rachunku 10%% opłaty za serwis"
+msgstr "A 10%% service charge is added for groups of 5 or more"
+
+#: index/templates/menu.html:32 index/views.py:11
+msgid "Przystawki"
+msgstr "Appetizers"
+
+#: index/templates/menu.html:36
+msgid "Talerz przystawek"
+msgstr "Appetizer Plate"
+
+#: index/templates/menu.html:37 index/templates/menu.html:44
+#: index/templates/menu.html:50 index/templates/menu.html:56
+#: index/templates/menu.html:62 index/templates/menu.html:68
+#: index/templates/menu.html:74 index/templates/menu.html:80
+#: index/templates/menu.html:86 index/templates/menu.html:93
+#: index/templates/menu.html:99 index/templates/menu.html:105
+#: index/templates/menu.html:111 index/templates/menu.html:122
+#: index/templates/menu.html:129 index/templates/menu.html:136
+#: index/templates/menu.html:143 index/templates/menu.html:150
+#: index/templates/menu.html:157 index/templates/menu.html:165
+#: index/templates/menu.html:172 index/templates/menu.html:179
+#: index/templates/menu.html:186 index/templates/menu.html:193
+#: index/templates/menu.html:200 index/templates/menu.html:207
+#: index/templates/menu.html:214 index/templates/menu.html:221
+#: index/templates/menu.html:233 index/templates/menu.html:240
+#: index/templates/menu.html:247 index/templates/menu.html:254
+#: index/templates/menu.html:261 index/templates/menu.html:269
+#: index/templates/menu.html:278 index/templates/menu.html:285
+#: index/templates/menu.html:292 index/templates/menu.html:299
+#: index/templates/menu.html:311 index/templates/menu.html:317
+#: index/templates/menu.html:323 index/templates/menu.html:329
+#: index/templates/menu.html:335 index/templates/menu.html:341
+#: index/templates/menu.html:352 index/templates/menu.html:358
+#: index/templates/menu.html:371 index/templates/menu.html:377
+#: index/templates/menu.html:383 index/templates/menu.html:389
+#: index/templates/menu.html:395 index/templates/menu.html:401
+#: index/templates/menu.html:412 index/templates/menu.html:418
+#: index/templates/menu.html:424 index/templates/menu.html:430
+#: index/templates/menu.html:441 index/templates/menu.html:447
+#: index/templates/menu.html:453 index/templates/menu.html:459
+#: index/templates/menu.html:470 index/templates/menu.html:477
+#: index/templates/menu.html:484 index/templates/menu.html:491
+#: index/templates/menu.html:497 index/templates/menu.html:516
+#: index/templates/menu.html:522 index/templates/menu.html:528
+#: index/templates/menu.html:539 index/templates/menu.html:545
+#: index/templates/menu.html:551
+msgid "zł"
+msgstr "PLN"
+
+#: index/templates/menu.html:39
+msgid ""
+"sajgonki krewetki 4 szt, sajgonki warzywne 2 szt, tempura kalamar 4 szt, "
+"tempura kwiat 4 szt"
+msgstr ""
+"shrimp spring rolls 4 pcs, vegetable spring rolls 2 pcs, calamari tempura 4 "
+"pcs, flower tempura 4 pcs"
+
+#: index/templates/menu.html:43
+msgid "Tempura krewetki 3 szt"
+msgstr "Shrimp tempura 3 pcs"
+
+#: index/templates/menu.html:49
+msgid "Tempura kalamari 4 szt"
+msgstr "Calamari tempura 4 pcs"
+
+#: index/templates/menu.html:55
+msgid "Warzywa w cieście tempura"
+msgstr "Vegetables in tempura batter"
+
+#: index/templates/menu.html:61
+msgid "Sajgonki krewetki 4 szt"
+msgstr "Shrimp spring rolls 4 pcs"
+
+#: index/templates/menu.html:67
+msgid "Sajgonki warzywa 2 szt"
+msgstr "Vegetable spring rolls 2 pcs"
+
+#: index/templates/menu.html:73
+msgid "Edamame"
+msgstr "Edamame"
+
+#: index/templates/menu.html:79
+msgid "Koreańskie kimchi"
+msgstr "Korean kimchi"
+
+#: index/templates/menu.html:85
+msgid "Pierożki z krewetkami 6 szt"
+msgstr "Shrimp dumplings 6 pcs"
+
+#: index/templates/menu.html:91
+msgid "Pierożki z kurczakiem 8 szt"
+msgstr "Chicken dumplings 8 pcs"
+
+#: index/templates/menu.html:98
+msgid "Pierożki z wołowina 8 szt"
+msgstr "Beef dumplings 8 pcs"
+
+#: index/templates/menu.html:104
+msgid "Chipsy krewetkowe"
+msgstr "Shrimp chips"
+
+#: index/templates/menu.html:110
+msgid "Zupa miso"
+msgstr "Miso soup"
+
+#: index/templates/menu.html:117 index/views.py:12
+msgid "Dania główne"
+msgstr "Main Dishes"
+
+#: index/templates/menu.html:121
+msgid "Tori sweet"
+msgstr "Tori Sweet"
+
+#: index/templates/menu.html:124
+msgid ""
+"spiringrolls krewetki 4 szt, spiringroll warzywa 2 szt, tempura kalamar 4 "
+"szt, tempura kwiat 4 szt"
+msgstr ""
+"shrimp spring rolls 4 pcs, vegetable spring rolls 2 pcs, calamari tempura 4 "
+"pcs, flower tempura 4 pcs"
+
+#: index/templates/menu.html:128
+msgid "Boru tori"
+msgstr "Boru Tori"
+
+#: index/templates/menu.html:131
+msgid "chrupicy kurczak, miska ryżu jaśminowego, łagodny słodki sos"
+msgstr "crispy chicken, jasmine rice bowl, mild sweet sauce"
+
+#: index/templates/menu.html:135
+msgid "Basilya chicken"
+msgstr "Basilya Chicken"
+
+#: index/templates/menu.html:138
+msgid ""
+"Ryż jaśminowy, sos ostrygowy, kurczak, fasola, papryka, cebula, marchewka, "
+"bazylia"
+msgstr ""
+"Jasmine rice, oyster sauce, chicken, beans, bell pepper, onion, carrot, basil"
+
+#: index/templates/menu.html:142
+msgid "Basilya tofu 🍃"
+msgstr "Basilya tofu 🍃"
+
+#: index/templates/menu.html:145
+msgid ""
+"Ryż jaśminowy, sos ostrygowy, tofu, fasola, papryka, cebula, marchewka, "
+"bazylia"
+msgstr ""
+"Jasmine rice, oyster sauce, tofu, beans, bell pepper, onion, carrot, basil"
+
+#: index/templates/menu.html:149
+msgid "Czerowne curry kurczak 🌶"
+msgstr "Red curry chicken 🌶"
+
+#: index/templates/menu.html:152
+msgid ""
+"Ryż jaśminowy, mleko kokosowe, kurczak, fasola, papryka, marchewka, bazylia"
+msgstr "Jasmine rice, coconut milk, chicken, beans, bell pepper, carrot, basil"
+
+#: index/templates/menu.html:156
+msgid "Czerowne curry tofu 🍃 🌶"
+msgstr "Red curry tofu 🍃 🌶"
+
+#: index/templates/menu.html:159
+msgid ""
+"Ryż jaśminowy, mleko kokosowe, tofu, fasola, papryka, marchewka, bazylia"
+msgstr "Jasmine rice, coconut milk, tofu, beans, bell pepper, carrot, basil"
+
+#: index/templates/menu.html:163
+msgid "Czerowne curry krewetki 🌶"
+msgstr "Red curry shrimp 🌶"
+
+#: index/templates/menu.html:167
+msgid ""
+"Ryż jaśminowy, mleko kokosowe, krewetki, fasola, papryka, marchewka, bazylia"
+msgstr "Jasmine rice, coconut milk, shrimp, beans, bell pepper, carrot, basil"
+
+#: index/templates/menu.html:171
+msgid "Chowmien kurczak 🌶🌶"
+msgstr "Chow mein chicken 🌶🌶"
+
+#: index/templates/menu.html:174 index/templates/menu.html:181
+#: index/templates/menu.html:188 index/templates/menu.html:216
+#: index/templates/menu.html:223
+msgid "uzupełnić składniki"
+msgstr "fill in the ingredients"
+
+#: index/templates/menu.html:178
+msgid "Chowmien tofu 🍃 🌶🌶"
+msgstr "Chow mein tofu 🍃 🌶🌶"
+
+#: index/templates/menu.html:185
+msgid "Chowmien krewetki 🌶🌶"
+msgstr "Chow mein shrimp 🌶🌶"
+
+#: index/templates/menu.html:192
+msgid "Ryż tonkatsu"
+msgstr "Tonkatsu rice"
+
+#: index/templates/menu.html:195
+msgid "Ryż jaśminowy, chrupiacy kotlet wieprzowy, sos katsu"
+msgstr "Jasmine rice, crispy pork cutlet, katsu sauce"
+
+#: index/templates/menu.html:199
+msgid "Cripy tofu katsu 🍃"
+msgstr "Crispy tofu katsu 🍃"
+
+#: index/templates/menu.html:202
+msgid "Ryż jaśminowy,chrupiące tofu, sos katsu"
+msgstr "Jasmine rice, crispy tofu, katsu sauce"
+
+#: index/templates/menu.html:206
+msgid "Łosoś katsu 🌶"
+msgstr "Salmon katsu 🌶"
+
+#: index/templates/menu.html:209
+msgid "Ryż jaśminowy,chrupiący łosoś, sos katsu"
+msgstr "Jasmine rice, crispy salmon, katsu sauce"
+
+#: index/templates/menu.html:213
+msgid "Yaki udon z krewetkami"
+msgstr "Yaki udon with shrimp"
+
+#: index/templates/menu.html:220
+msgid "Yaki udon z wołowiną"
+msgstr "Yaki udon with beef"
+
+#: index/templates/menu.html:228 index/views.py:13
+msgid "Ramen"
+msgstr "Ramen"
+
+#: index/templates/menu.html:232
+msgid "Tonkotsu Ranem"
+msgstr "Tonkotsu Ramen"
+
+#: index/templates/menu.html:235
+msgid ""
+"Chasu, szczypiorek, grzyby mun, pędy bambusa, marynowane jajko, bulion "
+"jajeczny z wieprzowiny"
+msgstr ""
+"Chashu, chives, wood ear mushrooms, bamboo shoots, marinated egg, pork egg-"
+"based broth"
+
+#: index/templates/menu.html:239
+msgid "Szechuan Korean Ramen 🌶🌶🌶"
+msgstr "Szechuan Korean Ramen 🌶🌶🌶"
+
+#: index/templates/menu.html:242
+msgid ""
+"Chasu, szczypiorek, kiełki, różowy imbir, marynowane jajka, bulion wieprzowy"
+msgstr ""
+"Chashu, chives, sprouts, pickled pink ginger, marinated egg, pork broth"
+
+#: index/templates/menu.html:246
+msgid "Tantamen Ramen"
+msgstr "Tantanmen Ramen"
+
+#: index/templates/menu.html:249
+msgid ""
+"mielona wieprzowina, szczypiorek, marynowane kiełki, marynowane jajka, "
+"bulion wieprzowy"
+msgstr "Minced pork, chives, marinated sprouts, marinated egg, pork broth"
+
+#: index/templates/menu.html:253
+msgid "Nissokhu Ramen"
+msgstr "Nissokhu Ramen"
+
+#: index/templates/menu.html:256
+msgid ""
+"Krewetki Nobashi, szczypiorek, kiełki, małże, grillowana cytryna, bulion z "
+"kurczaka"
+msgstr "Nobashi shrimp, chives, sprouts, mussels, grilled lemon, chicken broth"
+
+#: index/templates/menu.html:260
+msgid "Shoyu Assari Ramen"
+msgstr "Shoyu Assari Ramen"
+
+#: index/templates/menu.html:263
+msgid "chasu, szczypiorek, kiełki, marynowane jajko, bulion z kurczaka"
+msgstr "Chashu, chives, sprouts, marinated egg, chicken broth"
+
+#: index/templates/menu.html:268
+msgid "Spicy Miso Ramen 🌶"
+msgstr "Spicy Miso Ramen 🌶"
+
+#: index/templates/menu.html:272
+msgid ""
+"marynowany kurczak w sosie sambal, szczypiorek, marynowane kiełki, różowy "
+"imbir, marynowane jajka, bulion wieprzowy"
+msgstr ""
+"Marinated chicken in sambal sauce, chives, marinated sprouts, pickled pink "
+"ginger, marinated egg, pork broth"
+
+#: index/templates/menu.html:280
+msgid ""
+"Żeberka wieprzowe bez kości, szczypiorek, różowy imbir kanpyo, marynowane "
+"jajka, bulion wieprzowy"
+msgstr ""
+"Boneless pork ribs, chives, pickled pink kanpyo, marinated egg, pork broth"
+
+#: index/templates/menu.html:284
+msgid "Beef Ramen 🌶🌶"
+msgstr "Beef Ramen 🌶🌶"
+
+#: index/templates/menu.html:287
+msgid ""
+"Gulasz wołowy, szczypiorek, kielki, marynowane jajko, kapusta pekińska, "
+"bulion wołowy"
+msgstr "Beef stew, chives, sprouts, marinated egg, napa cabbage, beef broth"
+
+#: index/templates/menu.html:291
+msgid "Vegan Tantamen Ramen 🍃"
+msgstr "Vegan Tantanmen Ramen 🍃"
+
+#: index/templates/menu.html:294 index/templates/menu.html:301
+msgid ""
+"Kurczak wegański, grzyby shitake, szczypiorek, kiełki edamame, bulion "
+"zamówienia z mieszanych grzybów"
+msgstr ""
+"Vegan chicken, shiitake mushrooms, chives, edamame sprouts, mixed mushroom "
+"broth"
+
+#: index/templates/menu.html:298
+msgid "Szechuan Korean Vegan Ramen 🍃 🌶🌶🌶"
+msgstr "Szechuan Korean Vegan Ramen 🍃 🌶🌶🌶"
+
+#: index/templates/menu.html:306
+msgid "Dodatki do Ramenu"
+msgstr "Ramen Add-ons"
+
+#: index/templates/menu.html:310
+msgid "Mięso"
+msgstr "Meat"
+
+#: index/templates/menu.html:316
+msgid "Jajko"
+msgstr "Egg"
+
+#: index/templates/menu.html:322
+msgid "Makaron"
+msgstr "Noodles"
+
+#: index/templates/menu.html:328
+msgid "Ryż"
+msgstr "Rice"
+
+#: index/templates/menu.html:334
+msgid "Łosoś"
+msgstr "Salmon"
+
+#: index/templates/menu.html:340
+msgid "Krewetki"
+msgstr "Shrimp"
+
+#: index/templates/menu.html:347 index/views.py:15
+msgid "Desery"
+msgstr "Desserts"
+
+#: index/templates/menu.html:351
+msgid "Banan w Tempurze"
+msgstr "Banana in Tempura"
+
+#: index/templates/menu.html:357
+msgid "Lody kokosowe"
+msgstr "Coconut Ice Cream"
+
+#: index/templates/menu.html:364
+msgid "Napoje Bezalkoholowe"
+msgstr "Non-Alcoholic Beverages"
+
+#: index/templates/menu.html:366
+msgid "Ice Tea"
+msgstr "Iced Tea"
+
+#: index/templates/menu.html:370
+msgid "Czarna Mrożona Herbata"
+msgstr "Black Iced Tea"
+
+#: index/templates/menu.html:376
+msgid "Zielona Mrożona  Herbata"
+msgstr "Green Iced Tea"
+
+#: index/templates/menu.html:382
+msgid "Czarna Mrożona Herbata z mlekiem"
+msgstr "Black Iced Tea with Milk"
+
+#: index/templates/menu.html:388
+msgid "Zielona Mrożona  Herbata z mlekiem"
+msgstr "Green Iced Tea with Milk"
+
+#: index/templates/menu.html:394
+msgid "Matcha Latte"
+msgstr "Matcha Latte"
+
+#: index/templates/menu.html:400
+msgid "Taro Milk"
+msgstr "Taro Milk"
+
+#: index/templates/menu.html:407
+msgid "Herbaty"
+msgstr "Teas"
+
+#: index/templates/menu.html:411
+msgid "Sencha Zielona"
+msgstr "Sencha Green"
+
+#: index/templates/menu.html:417
+msgid "Sencha Jaśminowa"
+msgstr "Sencha Jasmine"
+
+#: index/templates/menu.html:423
+msgid "Sencha Wiśniowa"
+msgstr "Sencha Cherry"
+
+#: index/templates/menu.html:429
+msgid "Sencha Gainmatcha"
+msgstr "Sencha Genmaicha"
+
+#: index/templates/menu.html:436
+msgid "Woda"
+msgstr "Water"
+
+#: index/templates/menu.html:440
+msgid "Woda Niegazowana 300ml"
+msgstr "Still Water 300ml"
+
+#: index/templates/menu.html:446 index/templates/menu.html:458
+msgid "Woda Niegazowana 700ml"
+msgstr "Still Water 700ml"
+
+#: index/templates/menu.html:465
+msgid "Soft drink"
+msgstr "Soft Drink"
+
+#: index/templates/menu.html:469
+msgid "Japoński lemonade Ramuan 200ml"
+msgstr "Japanese Lemonade Ramune 200ml"
+
+#: index/templates/menu.html:476
+msgid "Aloe-vera 500ml"
+msgstr "Aloe Vera 500ml"
+
+#: index/templates/menu.html:483
+msgid "Aloe-vera 1 litr"
+msgstr "Aloe Vera 1L"
+
+#: index/templates/menu.html:490
+msgid "Cocacola 250ml"
+msgstr "Coca-Cola 250ml"
+
+#: index/templates/menu.html:496
+msgid "Cocaola 500ml"
+msgstr "Coca-Cola 500ml"
+
+#: index/templates/menu.html:504 index/views.py:17
+msgid "Alkohole"
+msgstr "Alcohol"
+
+#: index/templates/menu.html:506
+msgid "Nie sprzedajemy alkoholu osobom niepełnoletnim"
+msgstr "We do not sell alcohol to minors"
+
+#: index/templates/menu.html:507
+msgid "Nie sprzedajemy alkoholu osobom nietrzeźwym"
+msgstr "We do not sell alcohol to intoxicated persons"
+
+#: index/templates/menu.html:511
+msgid "Piwo"
+msgstr "Beer"
+
+#: index/templates/menu.html:515
+msgid "Asahi super dry 330ml"
+msgstr "Asahi Super Dry 330ml"
+
+#: index/templates/menu.html:521
+msgid "Kirin 330ml"
+msgstr "Kirin 330ml"
+
+#: index/templates/menu.html:527
+#, python-format
+msgid "Kirin 330ml 0%% "
+msgstr "Kirin 330ml 0%%"
+
+#: index/templates/menu.html:534
+msgid "Wino"
+msgstr "Wine"
+
+#: index/templates/menu.html:538
+msgid "Choya 150ml"
+msgstr "Choya 150ml"
+
+#: index/templates/menu.html:544
+msgid "Choya 500ml"
+msgstr "Choya 500ml"
+
+#: index/templates/menu.html:550
+msgid "Choya original 500ml butelka"
+msgstr "Choya Original 500ml Bottle"
+
+#: index/templates/polityka_strony.html:8
+msgid "Polityka Prywatności"
+msgstr "Privacy Policy"
+
+#: index/templates/polityka_strony.html:10
+msgid "1. Informacje ogólne"
+msgstr "1. General Information"
+
+#: index/templates/polityka_strony.html:11
+msgid "Niniejsza polityka prywatności dotyczy strony internetowej"
+msgstr "This privacy policy applies to the website"
+
+#: index/templates/polityka_strony.html:11
+msgid "dostępnej pod adresem"
+msgstr "available at"
+
+#: index/templates/polityka_strony.html:11
+msgid ""
+"Szanujemy prywatność naszych użytkowników i nie gromadzimy ani nie "
+"przetwarzamy żadnych danych osobowych za pośrednictwem tej strony "
+"internetowej"
+msgstr ""
+"We respect the privacy of our users and do not collect or process any "
+"personal data through this website."
+
+#: index/templates/polityka_strony.html:13
+msgid "2. Brak zbierania danych osobowych"
+msgstr "2. No Collection of Personal Data"
+
+#: index/templates/polityka_strony.html:14
+msgid "Korzystanie ze strony"
+msgstr "Using the website"
+
+#: index/templates/polityka_strony.html:14
+msgid ""
+"nie wymaga podawania żadnych danych osobowych. Nie stosujemy formularzy "
+"rejestracyjnych, rezerwacyjnych ani zapisów na newslettery."
+msgstr ""
+"does not require providing any personal data. We do not use registration "
+"forms, booking forms, or newsletter sign-ups."
+
+#: index/templates/polityka_strony.html:16
+msgid "3. Pliki cookies i technologie śledzące"
+msgstr "3. Cookies and Tracking Technologies"
+
+#: index/templates/polityka_strony.html:17
+msgid ""
+"Nasza strona nie używa plików cookies w celach analitycznych, reklamowych "
+"ani śledzących. Mogą być wykorzystywane jedynie podstawowe pliki cookies "
+"techniczne, niezbędne do prawidłowego działania strony."
+msgstr ""
+"Our website does not use cookies for analytics, advertising, or tracking "
+"purposes. Only basic technical cookies may be used, which are necessary for "
+"the proper functioning of the site."
+
+#: index/templates/polityka_strony.html:19
+msgid "4. Linki do stron trzecich"
+msgstr "4. Links to Third-Party Websites"
+
+#: index/templates/polityka_strony.html:20
+msgid ""
+"Nasza strona zawiera odnośniki do mediów społecznościowych (np. Facebook, "
+"Instagram) lub serwisów zewnętrznych (np. serwisy dostawcze). Korzystając z "
+"tych linków, użytkownik opuszcza naszą stronę, a dalsze przetwarzanie danych "
+"podlega polityce prywatności danej usługi."
+msgstr ""
+"Our website contains links to social media platforms (e.g., Facebook, "
+"Instagram) or external services (e.g., delivery services). By using these "
+"links, the user leaves our website, and further data processing is subject "
+"to the privacy policy of the respective service."
+
+#: index/templates/polityka_strony.html:22
+msgid "5. Kontakt"
+msgstr "5. Contact"
+
+#: index/templates/polityka_strony.html:23
+msgid ""
+"W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności możesz "
+"skontaktować się z nami:"
+msgstr ""
+"If you have any questions regarding this privacy policy, you can contact us "
+"at:"
+
+#: index/views.py:14
+msgid "Dodatki"
+msgstr "Extras"
+
+#: index/views.py:16
+msgid "Napoje"
+msgstr "Drinks"

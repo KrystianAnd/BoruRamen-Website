@@ -1232,6 +1232,12 @@
 .textpolitic strong {
   color: var(--primary);
 }
+.lipolitic{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
 /* burger */
 .hidden {
   display: none;
@@ -1367,6 +1373,9 @@
 
   .infoneme {
     font-size: 1.2rem;
+  }
+  .contenermenu{
+    margin-top: 20px;
   }
 
   .menu-item,

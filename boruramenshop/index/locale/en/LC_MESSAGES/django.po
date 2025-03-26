@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 18:04+0000\n"
+"POT-Creation-Date: 2025-03-26 22:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,29 +18,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: index/templates/main.html:20 index/templates/main.html:212
+#: index/templates/main.html:26 index/templates/main.html:217
 msgid "Strona Główna"
 msgstr "Home"
 
-#: index/templates/main.html:21 index/templates/main.html:56
-#: index/templates/main.html:213
+#: index/templates/main.html:27 index/templates/main.html:62
+#: index/templates/main.html:218
 msgid "O Nas"
 msgstr "About Us"
 
-#: index/templates/main.html:22 index/templates/main.html:115
-#: index/templates/main.html:138 index/templates/main.html:214
+#: index/templates/main.html:28 index/templates/main.html:121
+#: index/templates/main.html:143 index/templates/main.html:219
 msgid "Menu"
 msgstr "Menu"
 
-#: index/templates/main.html:23 index/templates/main.html:148
+#: index/templates/main.html:29 index/templates/main.html:153
 msgid "Zamów onlinie"
 msgstr "Order Online"
 
-#: index/templates/main.html:47
+#: index/templates/main.html:53
 msgid "Głęboki smak Japonii w każdej misce"
 msgstr "The deep taste of Japan in every bowl"
 
-#: index/templates/main.html:60
+#: index/templates/main.html:66
 msgid ""
 "Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich "
 "zupach ramen oraz yaki udon."
@@ -48,40 +48,40 @@ msgstr ""
 "We are a restaurant in Lublin specializing in traditional Japanese ramen "
 "soups and yaki udon."
 
-#: index/templates/main.html:63
+#: index/templates/main.html:69
 msgid "Znajdziesz nas na ulicy: "
 msgstr "You can find us at: "
 
-#: index/templates/main.html:64
+#: index/templates/main.html:70
 msgid "Jesteśmy otwarci "
 msgstr "We are open "
 
-#: index/templates/main.html:64
+#: index/templates/main.html:70
 msgid "od poniedziałku do niedzieli"
 msgstr "from Monday to Sunday"
 
-#: index/templates/main.html:65
+#: index/templates/main.html:71
 msgid "W godzinach <strong>12.00-21.30</strong>"
 msgstr "From 12:00 PM to 9:30 PM"
 
-#: index/templates/main.html:66
+#: index/templates/main.html:72
 msgid "Telefon kontaktowy: <strong>507 030 411 </strong>"
 msgstr "Contact number : <strong>+48 507 030 411 </strong>"
 
-#: index/templates/main.html:67
+#: index/templates/main.html:73
 msgid ""
 "W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie."
 msgstr "In our restaurant, pets are just as welcome as their owners."
 
-#: index/templates/main.html:79
+#: index/templates/main.html:85
 msgid "Nasze Social Media"
 msgstr "Our Social Media"
 
-#: index/templates/main.html:82
+#: index/templates/main.html:88
 msgid "Nasz Facebook"
 msgstr "Our Facebook"
 
-#: index/templates/main.html:83
+#: index/templates/main.html:89
 msgid ""
 "Dołącz do naszej społeczności i bądź na bieżąco z nowymi ramenami, pysznymi "
 "dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych "
@@ -90,11 +90,11 @@ msgstr ""
 "Join our community and stay updated on new ramen dishes, delicious toppings, "
 "and exclusive promotions. Follow us to never miss ramen inspirations!"
 
-#: index/templates/main.html:97
+#: index/templates/main.html:103
 msgid "Nasz Instagram"
 msgstr "Our Instagram"
 
-#: index/templates/main.html:98
+#: index/templates/main.html:104
 msgid ""
 "Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i "
 "apetyczne zdjęcia, które rozbudzą Twój apetyt!"
@@ -102,53 +102,52 @@ msgstr ""
 "Follow us on Instagram to discover tasty new dishes, behind-the-scenes "
 "kitchen moments, and mouthwatering photos that will whet your appetite!"
 
-#: index/templates/main.html:119
+#: index/templates/main.html:125
 msgid "Rekomendacje"
 msgstr "Recommendations"
 
-#: index/templates/main.html:122
-msgid "Polecamy :"
-msgstr "We recommend:"
+#: index/templates/main.html:128 index/templates/menu.html:246
+msgid "Tantamen Ramen"
+msgstr "Tantanmen Ramen"
 
-#: index/templates/main.html:123 index/templates/menu.html:277
-msgid "BBQ Ramen"
-msgstr "BBQ Ramen"
-
-#: index/templates/main.html:124
+#: index/templates/main.html:129
 msgid ""
-"Odkryj nasz wyjątkowy BBQ Ramen! 🍜🔥 Soczyste żeberka wieprzowe bez kości, "
-"delikatny szczypiorek, aromatyczny różowy imbir kanpyo oraz marynowane jajko "
-"w połączeniu z bogatym bulionem wieprzowym tworzą prawdziwą ucztę dla "
-"podniebienia. Przyjdź i daj się porwać tej pysznej harmonii smaków!"
+"Odkryj nasz wyjątkowy Tantamen Ramen! 🍜🔥 Soczysta mielona wieprzowina, "
+"świeży szczypiorek, chrupiące marynowane kiełki oraz kremowe marynowane "
+"jajko, zanurzone w głębokim, aromatycznym bulionie wieprzowym. To idealne "
+"połączenie intensywnych smaków, które zachwyci każde podniebienie! Przyjdź i "
+"spróbuj tej wyjątkowej kompozycji!"
 msgstr ""
-"Discover our unique BBQ Ramen! 🍜🔥 Juicy boneless pork ribs, delicate "
-"chives, aromatic pink kanpyo ginger, and marinated egg combined with rich "
-"pork broth create a true feast for the senses. Come and indulge in this "
-"delicious harmony of flavors!"
+"Discover our exceptional Tantamen Ramen! 🍜🔥 Juicy ground pork, fresh "
+"chives, crispy pickled sprouts, and creamy marinated egg, all immersed in a "
+"rich, aromatic pork broth. This perfect combination of bold flavors will "
+"delight every palate! Come and try this unique creation!"
 
-#: index/templates/main.html:125
-msgid "Zielona Ice Tea"
-msgstr "Green Ice Tea"
+#: index/templates/main.html:130
+msgid "Czarna Mrożona Herbata z mlekiem "
+msgstr "Black Iced Tea with Milk"
 
-#: index/templates/main.html:126
+#: index/templates/main.html:131
 msgid ""
-"Dopełnij swoje rameny odświeżającą Zieloną Herbatą 🍵✨ Jej subtelny, "
-"naturalny smak idealnie komponuje się z aromatem naszego ramen i sprawi, że "
-"każda chwila posiłku stanie się jeszcze przyjemniejsza!"
+"Dopełnij swoje rameny orzeźwiającą Czarną Mrożoną Herbatą z mlekiem! 🧊🥛 "
+"Jej głęboki, wyrazisty smak w połączeniu z delikatną kremowością mleka "
+"tworzy idealne uzupełnienie dla aromatycznych dań. Spróbuj i ciesz się "
+"doskonałą harmonią smaków!"
 msgstr ""
-"Complete your ramen experience with refreshing Green Tea 🍵✨ Its subtle, "
-"natural flavor perfectly complements the aroma of our ramen, making every "
-"meal even more enjoyable!"
+"Complement your ramen with a refreshing Black Iced Tea with milk! 🧊🥛 Its "
+"deep, bold flavor combined with the delicate creaminess of milk creates the "
+"perfect pairing for aromatic dishes. Try it and enjoy the perfect harmony of "
+"flavors!"
 
-#: index/templates/main.html:135
+#: index/templates/main.html:140
 msgid "Całe menu zobaczysz tutaj"
 msgstr "See the full menu here"
 
-#: index/templates/main.html:151
+#: index/templates/main.html:156
 msgid "Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji."
 msgstr "At the moment, we do not offer direct delivery from the restaurant."
 
-#: index/templates/main.html:152
+#: index/templates/main.html:157
 msgid ""
 "Chcesz zamówić ramen do domu? 🍜 Skorzystaj z Pyszne.pl lub Uber Eats. A "
 "jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – "
@@ -158,30 +157,30 @@ msgstr ""
 "pick it up yourself, call us at +48 507 030 411 – we’ll have everything "
 "ready on time!"
 
-#: index/templates/main.html:159
+#: index/templates/main.html:164
 msgid "Zamów przez Pyszne pl"
 msgstr "Order via Pyszne.pl"
 
-#: index/templates/main.html:168
+#: index/templates/main.html:173
 msgid "Zamów przez Uber Eats"
 msgstr "Order via Uber Eats"
 
-#: index/templates/main.html:178
+#: index/templates/main.html:183
 msgid "Rezerwacje"
 msgstr "Reservations"
 
-#: index/templates/main.html:181
+#: index/templates/main.html:186
 msgid ""
 "Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊"
 "🥢"
 msgstr ""
 "Want to book a table? 📞✨ Call us, and we'll take care of the rest! 😊🥢"
 
-#: index/templates/main.html:186
+#: index/templates/main.html:191
 msgid "Oceń nas"
 msgstr "Rate us"
 
-#: index/templates/main.html:187
+#: index/templates/main.html:192
 msgid ""
 "Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, "
 "podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜"
@@ -189,19 +188,19 @@ msgstr ""
 "Your opinion means a lot to us! 💬✨ If you enjoyed your meal, share your "
 "review on Google – we would really appreciate it! 😊🍜"
 
-#: index/templates/main.html:191
+#: index/templates/main.html:196
 msgid "Oceń nas na Google"
 msgstr "Rate us on Google"
 
-#: index/templates/main.html:215
+#: index/templates/main.html:220
 msgid "Zamów online"
 msgstr "Order online"
 
-#: index/templates/main.html:216
+#: index/templates/main.html:221
 msgid "Polityka prywatności"
 msgstr "Privacy Policy"
 
-#: index/templates/main.html:228
+#: index/templates/main.html:233
 msgid "2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone."
 msgstr "2025 Boru Ramen Shop. All rights reserved."
 
@@ -466,10 +465,6 @@ msgid ""
 msgstr ""
 "Chashu, chives, sprouts, pickled pink ginger, marinated egg, pork broth"
 
-#: index/templates/menu.html:246
-msgid "Tantamen Ramen"
-msgstr "Tantanmen Ramen"
-
 #: index/templates/menu.html:249
 msgid ""
 "mielona wieprzowina, szczypiorek, marynowane kiełki, marynowane jajka, "
@@ -505,6 +500,10 @@ msgid ""
 msgstr ""
 "Marinated chicken in sambal sauce, chives, marinated sprouts, pickled pink "
 "ginger, marinated egg, pork broth"
+
+#: index/templates/menu.html:277
+msgid "BBQ Ramen"
+msgstr "BBQ Ramen"
 
 #: index/templates/menu.html:280
 msgid ""
@@ -639,9 +638,17 @@ msgstr "Water"
 msgid "Woda Niegazowana 300ml"
 msgstr "Still Water 300ml"
 
-#: index/templates/menu.html:446 index/templates/menu.html:458
+#: index/templates/menu.html:446
 msgid "Woda Niegazowana 700ml"
 msgstr "Still Water 700ml"
+
+#: index/templates/menu.html:452
+msgid "Woda Gazowana 300ml"
+msgstr "Sparkling Water 300ml"
+
+#: index/templates/menu.html:458
+msgid "Woda Gazowana 700ml"
+msgstr "Sparkling  Water 700ml"
 
 #: index/templates/menu.html:465
 msgid "Soft drink"
@@ -717,83 +724,179 @@ msgid "Polityka Prywatności"
 msgstr "Privacy Policy"
 
 #: index/templates/polityka_strony.html:10
-msgid "1. Informacje ogólne"
-msgstr "1. General Information"
-
-#: index/templates/polityka_strony.html:11
-msgid "Niniejsza polityka prywatności dotyczy strony internetowej"
-msgstr "This privacy policy applies to the website"
-
-#: index/templates/polityka_strony.html:11
-msgid "dostępnej pod adresem"
-msgstr "available at"
+msgid "I. Postanowienia ogólne"
+msgstr "I. General Provisions"
 
 #: index/templates/polityka_strony.html:11
 msgid ""
-"Szanujemy prywatność naszych użytkowników i nie gromadzimy ani nie "
-"przetwarzamy żadnych danych osobowych za pośrednictwem tej strony "
-"internetowej"
+"Niniejsza Polityka prywatności określa zasady zbierania, przetwarzania i "
+"przechowywania danych użytkowników Serwisu"
 msgstr ""
-"We respect the privacy of our users and do not collect or process any "
-"personal data through this website."
+"This Privacy Policy defines the rules for collecting, processing, and "
+"storing user data of the Service"
+
+#: index/templates/polityka_strony.html:12
+msgid ""
+"Serwis nie zbiera danych osobowych użytkowników, chyba że zostaną one "
+"dobrowolnie podane."
+msgstr ""
+"The Service does not collect users’ personal data unless it is provided "
+"voluntarily."
 
 #: index/templates/polityka_strony.html:13
-msgid "2. Brak zbierania danych osobowych"
-msgstr "2. No Collection of Personal Data"
-
-#: index/templates/polityka_strony.html:14
-msgid "Korzystanie ze strony"
-msgstr "Using the website"
-
-#: index/templates/polityka_strony.html:14
 msgid ""
-"nie wymaga podawania żadnych danych osobowych. Nie stosujemy formularzy "
-"rejestracyjnych, rezerwacyjnych ani zapisów na newslettery."
+"W Serwisie wykorzystywane jest narzędzie analityczne Matomo, które działa w "
+"trybie bez plików cookie i nie zbiera danych osobowych."
 msgstr ""
-"does not require providing any personal data. We do not use registration "
-"forms, booking forms, or newsletter sign-ups."
+"The Service uses the Matomo analytics tool, which operates in a "
+"cookie-less mode and does not collect personal data."
+
+#: index/templates/polityka_strony.html:15
+msgid "II. Administrator danych"
+msgstr "II. Data Controller"
 
 #: index/templates/polityka_strony.html:16
-msgid "3. Pliki cookies i technologie śledzące"
-msgstr "3. Cookies and Tracking Technologies"
+msgid "Administratorem Serwisu jest"
+msgstr "The administrator of the Service is"
+
+#: index/templates/polityka_strony.html:16
+msgid "adres:"
+msgstr "address:"
+
+#: index/templates/polityka_strony.html:16
+msgid "adres e-mail:"
+msgstr "email address:"
 
 #: index/templates/polityka_strony.html:17
 msgid ""
-"Nasza strona nie używa plików cookies w celach analitycznych, reklamowych "
-"ani śledzących. Mogą być wykorzystywane jedynie podstawowe pliki cookies "
-"techniczne, niezbędne do prawidłowego działania strony."
+"Serwis nie gromadzi ani nie przetwarza danych osobowych użytkowników w "
+"celach marketingowych ani statystycznych poza danymi anonimizowanymi w "
+"Matomo."
 msgstr ""
-"Our website does not use cookies for analytics, advertising, or tracking "
-"purposes. Only basic technical cookies may be used, which are necessary for "
-"the proper functioning of the site."
-
+"The Service does not collect or process users’ personal data for marketing "
+"or statistical purposes, except for anonymized data in Matomo."
 #: index/templates/polityka_strony.html:19
-msgid "4. Linki do stron trzecich"
-msgstr "4. Links to Third-Party Websites"
+msgid "III. Cel zbierania danych"
+msgstr "III. Purpose of Data Collection"
 
 #: index/templates/polityka_strony.html:20
 msgid ""
-"Nasza strona zawiera odnośniki do mediów społecznościowych (np. Facebook, "
-"Instagram) lub serwisów zewnętrznych (np. serwisy dostawcze). Korzystając z "
-"tych linków, użytkownik opuszcza naszą stronę, a dalsze przetwarzanie danych "
-"podlega polityce prywatności danej usługi."
+"Serwis przetwarza wyłącznie dane niezbędne do jego funkcjonowania oraz "
+"poprawy jakości świadczonych usług."
 msgstr ""
-"Our website contains links to social media platforms (e.g., Facebook, "
-"Instagram) or external services (e.g., delivery services). By using these "
-"links, the user leaves our website, and further data processing is subject "
-"to the privacy policy of the respective service."
+"The Service processes only the data necessary for its operation and for "
+"improving the quality of the services provided."
 
-#: index/templates/polityka_strony.html:22
-msgid "5. Kontakt"
-msgstr "5. Contact"
+#: index/templates/polityka_strony.html:21
+msgid "Wykorzystywane dane analityczne w Matomo obejmują:"
+msgstr "The analytical data used in Matomo includes:"
 
 #: index/templates/polityka_strony.html:23
+msgid "liczbę odwiedzin,"
+msgstr "number of visits,"
+
+#: index/templates/polityka_strony.html:24
+msgid "przeglądane podstrony,"
+msgstr "pages viewed,"
+
+#: index/templates/polityka_strony.html:25
+msgid "czas spędzony na stronie,"
+msgstr "time spent on the site,"
+
+#: index/templates/polityka_strony.html:26
+msgid "typ urządzenia i przeglądarki."
+msgstr "type of device and browser."
+
+#: index/templates/polityka_strony.html:28
 msgid ""
-"W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności możesz "
-"skontaktować się z nami:"
+"Dane te są całkowicie anonimowe i nie pozwalają na identyfikację "
+"użytkowników."
 msgstr ""
-"If you have any questions regarding this privacy policy, you can contact us "
-"at:"
+"This data is completely anonymous and does not allow for the identification "
+"of users."
+
+#: index/templates/polityka_strony.html:30
+msgid "IV. Pliki cookies"
+msgstr "IV. Cookies"
+
+#: index/templates/polityka_strony.html:31
+msgid ""
+"Serwis nie wykorzystuje plików cookie do śledzenia użytkowników ani "
+"profilowania ich działań."
+msgstr ""
+"The Service does not use cookies to track users or to profile their activity."
+
+#: index/templates/polityka_strony.html:32
+msgid ""
+"Matomo działa w trybie bez plików cookie, dzięki czemu nie zapisuje żadnych "
+"informacji na urządzeniu użytkownika."
+msgstr ""
+"Matomo operates in a cookie-less mode, meaning it does not store any "
+"information on the user's device."
+
+#: index/templates/polityka_strony.html:33
+msgid ""
+"Użytkownik może zarządzać ustawieniami plików cookie w swojej przeglądarce, "
+"chociaż Serwis ich nie wykorzystuje do analizy danych."
+msgstr ""
+"The user can manage cookie settings in their browser, although the Service "
+"does not use them for data analysis."
+
+#: index/templates/polityka_strony.html:35
+msgid "V. Udostępnianie danych"
+msgstr "V. Data Sharing"
+
+#: index/templates/polityka_strony.html:36
+msgid "Dane zbierane w Serwisie nie są przekazywane żadnym podmiotom trzecim."
+msgstr ""
+"The data collected on the Service is not shared with any third parties."
+
+#: index/templates/polityka_strony.html:37
+msgid ""
+"Dane analityczne z Matomo są przetwarzane lokalnie i nie są przesyłane poza "
+"Europejski Obszar Gospodarczy (EOG)."
+msgstr ""
+"The analytical data from Matomo is processed locally and is not transferred "
+"outside the European Economic Area (EEA)."
+
+#: index/templates/polityka_strony.html:39
+msgid "VI. Prawa użytkowników"
+msgstr "VI. Users' Rights"
+
+#: index/templates/polityka_strony.html:40
+msgid ""
+"Ponieważ Serwis nie przetwarza danych osobowych użytkowników, nie ma "
+"potrzeby udostępniania mechanizmów ich usunięcia lub sprostowania."
+msgstr ""
+"Since the Service does not process users’ personal data, there is no need to "
+"provide mechanisms for its deletion or correction."
+
+#: index/templates/polityka_strony.html:41
+msgid ""
+"W razie pytań użytkownik może skontaktować się z Administratorem pod adresem"
+msgstr ""
+"If the user has any questions, they can contact the Administrator at the "
+"following address"
+
+#: index/templates/polityka_strony.html:43
+msgid "VII. Zmiany w polityce prywatności"
+msgstr "VII. Changes to the Privacy Policy"
+
+#: index/templates/polityka_strony.html:44
+msgid ""
+"Administrator może wprowadzać zmiany w Polityce prywatności, o czym "
+"poinformuje na stronie Serwisu."
+msgstr ""
+"The Administrator may make changes to the Privacy Policy, which will be "
+"announced on the Service website."
+
+#: index/templates/polityka_strony.html:45
+msgid ""
+"W przypadku zmian nie wpływających na prawa użytkowników, Polityka będzie "
+"aktualizowana bez konieczności akceptacji przez użytkownika."
+msgstr ""
+"In the case of changes that do not affect users' rights, the Policy will be "
+"updated without the need for user acceptance."
 
 #: index/views.py:14
 msgid "Dodatki"
@@ -802,3 +905,93 @@ msgstr "Extras"
 #: index/views.py:16
 msgid "Napoje"
 msgstr "Drinks"
+
+#~ msgid "1. Informacje ogólne"
+#~ msgstr "1. General Information"
+
+#~ msgid "Niniejsza polityka prywatności dotyczy strony internetowej"
+#~ msgstr "This privacy policy applies to the website"
+
+#~ msgid "dostępnej pod adresem"
+#~ msgstr "available at"
+
+#~ msgid ""
+#~ "Szanujemy prywatność naszych użytkowników i nie gromadzimy ani nie "
+#~ "przetwarzamy żadnych danych osobowych za pośrednictwem tej strony "
+#~ "internetowej"
+#~ msgstr ""
+#~ "We respect the privacy of our users and do not collect or process any "
+#~ "personal data through this website."
+
+#~ msgid "Korzystanie ze strony"
+#~ msgstr "Using the website"
+
+#~ msgid ""
+#~ "nie wymaga podawania żadnych danych osobowych. Nie stosujemy formularzy "
+#~ "rejestracyjnych, rezerwacyjnych ani zapisów na newslettery."
+#~ msgstr ""
+#~ "does not require providing any personal data. We do not use registration "
+#~ "forms, booking forms, or newsletter sign-ups."
+
+#~ msgid "3. Pliki cookies i technologie śledzące"
+#~ msgstr "3. Cookies and Tracking Technologies"
+
+#~ msgid ""
+#~ "Nasza strona nie używa plików cookies w celach analitycznych, reklamowych "
+#~ "ani śledzących. Mogą być wykorzystywane jedynie podstawowe pliki cookies "
+#~ "techniczne, niezbędne do prawidłowego działania strony."
+#~ msgstr ""
+#~ "Our website does not use cookies for analytics, advertising, or tracking "
+#~ "purposes. Only basic technical cookies may be used, which are necessary "
+#~ "for the proper functioning of the site."
+
+#~ msgid "4. Linki do stron trzecich"
+#~ msgstr "4. Links to Third-Party Websites"
+
+#~ msgid ""
+#~ "Nasza strona zawiera odnośniki do mediów społecznościowych (np. Facebook, "
+#~ "Instagram) lub serwisów zewnętrznych (np. serwisy dostawcze). Korzystając "
+#~ "z tych linków, użytkownik opuszcza naszą stronę, a dalsze przetwarzanie "
+#~ "danych podlega polityce prywatności danej usługi."
+#~ msgstr ""
+#~ "Our website contains links to social media platforms (e.g., Facebook, "
+#~ "Instagram) or external services (e.g., delivery services). By using these "
+#~ "links, the user leaves our website, and further data processing is "
+#~ "subject to the privacy policy of the respective service."
+
+#~ msgid "5. Kontakt"
+#~ msgstr "5. Contact"
+
+#~ msgid ""
+#~ "W przypadku jakichkolwiek pytań dotyczących tej polityki prywatności "
+#~ "możesz skontaktować się z nami:"
+#~ msgstr ""
+#~ "If you have any questions regarding this privacy policy, you can contact "
+#~ "us at:"
+
+#~ msgid ""
+#~ "Odkryj nasz wyjątkowy BBQ Ramen! 🍜🔥 Soczyste żeberka wieprzowe bez "
+#~ "kości, delikatny szczypiorek, aromatyczny różowy imbir kanpyo oraz "
+#~ "marynowane jajko w połączeniu z bogatym bulionem wieprzowym tworzą "
+#~ "prawdziwą ucztę dla podniebienia. Przyjdź i daj się porwać tej pysznej "
+#~ "harmonii smaków!"
+#~ msgstr ""
+#~ "Discover our unique BBQ Ramen! 🍜🔥 Juicy boneless pork ribs, delicate "
+#~ "chives, aromatic pink kanpyo ginger, and marinated egg combined with rich "
+#~ "pork broth create a true feast for the senses. Come and indulge in this "
+#~ "delicious harmony of flavors!"
+
+#~ msgid "Zielona Ice Tea"
+#~ msgstr "Green Ice Tea"
+
+#~ msgid ""
+#~ "Dopełnij swoje rameny odświeżającą Zieloną Herbatą 🍵✨ Jej subtelny, "
+#~ "naturalny smak idealnie komponuje się z aromatem naszego ramen i sprawi, "
+#~ "że każda chwila posiłku stanie się jeszcze przyjemniejsza!"
+#~ msgstr ""
+#~ "Complete your ramen experience with refreshing Green Tea 🍵✨ Its subtle, "
+#~ "natural flavor perfectly complements the aroma of our ramen, making every "
+#~ "meal even more enjoyable!"
+
+#~ msgid "Polecamy :"
+#~ msgstr "We recommend:"

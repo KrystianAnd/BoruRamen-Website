@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-26 22:40+0000\n"
+"POT-Creation-Date: 2025-03-29 14:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,29 +20,29 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: index/templates/main.html:26 index/templates/main.html:217
+#: index/templates/main.html:57 index/templates/main.html:248
 msgid "Strona Główna"
 msgstr ""
 
-#: index/templates/main.html:27 index/templates/main.html:62
-#: index/templates/main.html:218
+#: index/templates/main.html:58 index/templates/main.html:93
+#: index/templates/main.html:249
 msgid "O Nas"
 msgstr "O Nas"
 
-#: index/templates/main.html:28 index/templates/main.html:121
-#: index/templates/main.html:143 index/templates/main.html:219
+#: index/templates/main.html:59 index/templates/main.html:152
+#: index/templates/main.html:174 index/templates/main.html:250
 msgid "Menu"
 msgstr "Menu"
 
-#: index/templates/main.html:29 index/templates/main.html:153
+#: index/templates/main.html:60 index/templates/main.html:184
 msgid "Zamów onlinie"
 msgstr "Zamów onlinie"
 
-#: index/templates/main.html:53
+#: index/templates/main.html:88
 msgid "Głęboki smak Japonii w każdej misce"
 msgstr "Głęboki smak Japonii w każdej misce"
 
-#: index/templates/main.html:66
+#: index/templates/main.html:97
 msgid ""
 "Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich "
 "zupach ramen oraz yaki udon."
@@ -50,47 +50,47 @@ msgstr ""
 "Jesteśmy restauracją w Lublinie specjalizującą się w tradycyjnych japońskich "
 "zupach ramen oraz yaki udon."
 
-#: index/templates/main.html:69
+#: index/templates/main.html:100
 #, fuzzy
 #| msgid "Znajdziesz nas na ulicy: Kosciuszki 3 Lublin"
 msgid "Znajdziesz nas na ulicy: "
 msgstr "Znajdziesz nas na ulicy: Kosciuszki 3 Lublin"
 
-#: index/templates/main.html:70
+#: index/templates/main.html:101
 msgid "Jesteśmy otwarci "
 msgstr ""
 
-#: index/templates/main.html:70
+#: index/templates/main.html:101
 #, fuzzy
 #| msgid "Jesteśmy otwarci od poniedziałku do niedzieli"
 msgid "od poniedziałku do niedzieli"
 msgstr "Jesteśmy otwarci od poniedziałku do niedzieli"
 
-#: index/templates/main.html:71
+#: index/templates/main.html:102
 #, fuzzy
 #| msgid "W godzinach 12.00-21.30"
 msgid "W godzinach <strong>12.00-21.30</strong>"
 msgstr "W godzinach 12.00-21.30"
 
-#: index/templates/main.html:72
+#: index/templates/main.html:103
 msgid "Telefon kontaktowy: <strong>507 030 411 </strong>"
 msgstr ""
 
-#: index/templates/main.html:73
+#: index/templates/main.html:104
 msgid ""
 "W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie."
 msgstr ""
 "W naszej restauracji zwierzątka są równie mile widziani, co ich opiekunowie."
 
-#: index/templates/main.html:85
+#: index/templates/main.html:116
 msgid "Nasze Social Media"
 msgstr "Nasze Social Media"
 
-#: index/templates/main.html:88
+#: index/templates/main.html:119
 msgid "Nasz Facebook"
 msgstr "Nasz Facebook"
 
-#: index/templates/main.html:89
+#: index/templates/main.html:120
 msgid ""
 "Dołącz do naszej społeczności i bądź na bieżąco z nowymi ramenami, pysznymi "
 "dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych "
@@ -100,11 +100,11 @@ msgstr ""
 "dodatkami i wyjątkowymi promocjami. Śledź nas, by nie przegapić ramenowych "
 "inspiracji!"
 
-#: index/templates/main.html:103
+#: index/templates/main.html:134
 msgid "Nasz Instagram"
 msgstr "Nasz Instagram"
 
-#: index/templates/main.html:104
+#: index/templates/main.html:135
 msgid ""
 "Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i "
 "apetyczne zdjęcia, które rozbudzą Twój apetyt!"
@@ -112,15 +112,15 @@ msgstr ""
 "Obserwuj nas na Instagramie, odkrywaj smakowite nowości, kulisy kuchni i "
 "apetyczne zdjęcia, które rozbudzą Twój apetyt!"
 
-#: index/templates/main.html:125
+#: index/templates/main.html:156
 msgid "Rekomendacje"
 msgstr "Rekomendacje"
 
-#: index/templates/main.html:128 index/templates/menu.html:246
+#: index/templates/main.html:159 index/templates/menu.html:246
 msgid "Tantamen Ramen"
 msgstr "Tantamen Ramen"
 
-#: index/templates/main.html:129
+#: index/templates/main.html:160
 msgid ""
 "Odkryj nasz wyjątkowy Tantamen Ramen! 🍜🔥 Soczysta mielona wieprzowina, "
 "świeży szczypiorek, chrupiące marynowane kiełki oraz kremowe marynowane "
@@ -134,11 +134,11 @@ msgstr ""
 "połączenie intensywnych smaków, które zachwyci każde podniebienie! Przyjdź i "
 "spróbuj tej wyjątkowej kompozycji!"
 
-#: index/templates/main.html:130
+#: index/templates/main.html:161
 msgid "Czarna Mrożona Herbata z mlekiem "
 msgstr "Czarna Mrożona Herbata z mlekiem"
 
-#: index/templates/main.html:131
+#: index/templates/main.html:162
 msgid ""
 "Dopełnij swoje rameny orzeźwiającą Czarną Mrożoną Herbatą z mlekiem! 🧊🥛 "
 "Jej głęboki, wyrazisty smak w połączeniu z delikatną kremowością mleka "
@@ -150,15 +150,15 @@ msgstr ""
 "tworzy idealne uzupełnienie dla aromatycznych dań. Spróbuj i ciesz się "
 "doskonałą harmonią smaków!"
 
-#: index/templates/main.html:140
+#: index/templates/main.html:171
 msgid "Całe menu zobaczysz tutaj"
 msgstr "Całe menu zobaczysz tutaj"
 
-#: index/templates/main.html:156
+#: index/templates/main.html:187
 msgid "Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji."
 msgstr "Na obecną chwilę nie obsługujemy dostaw bezpośrednio z restauracji."
 
-#: index/templates/main.html:157
+#: index/templates/main.html:188
 msgid ""
 "Chcesz zamówić ramen do domu? 🍜 Skorzystaj z Pyszne.pl lub Uber Eats. A "
 "jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – "
@@ -168,19 +168,19 @@ msgstr ""
 "jeśli wolisz odebrać osobiście, zadzwoń do nas pod numer 507 030 411 – "
 "przygotujemy wszystko na czas! "
 
-#: index/templates/main.html:164
+#: index/templates/main.html:195
 msgid "Zamów przez Pyszne pl"
 msgstr "Zamów przez Pyszne pl"
 
-#: index/templates/main.html:173
+#: index/templates/main.html:204
 msgid "Zamów przez Uber Eats"
 msgstr "Zamów przez Uber Eats"
 
-#: index/templates/main.html:183
+#: index/templates/main.html:214
 msgid "Rezerwacje"
 msgstr "Rezerwacje"
 
-#: index/templates/main.html:186
+#: index/templates/main.html:217
 msgid ""
 "Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊"
 "🥢"
@@ -188,11 +188,11 @@ msgstr ""
 "Chcesz zarezerwować stolik? 📞✨ Zadzwoń do nas, a my zajmiemy się resztą! 😊"
 "🥢"
 
-#: index/templates/main.html:191
+#: index/templates/main.html:222
 msgid "Oceń nas"
 msgstr "Oceń nas"
 
-#: index/templates/main.html:192
+#: index/templates/main.html:223
 msgid ""
 "Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, "
 "podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜"
@@ -200,19 +200,19 @@ msgstr ""
 "Twoja opinia ma dla nas ogromne znaczenie! 💬✨ Jeśli smakowało Ci u nas, "
 "podziel się swoją opinią na Google – będzie nam bardzo miło! 😊🍜"
 
-#: index/templates/main.html:196
+#: index/templates/main.html:227
 msgid "Oceń nas na Google"
 msgstr "Oceń nas na Google"
 
-#: index/templates/main.html:220
+#: index/templates/main.html:251
 msgid "Zamów online"
 msgstr "Zamów online"
 
-#: index/templates/main.html:221
+#: index/templates/main.html:252
 msgid "Polityka prywatności"
 msgstr "Polityka prywatności"
 
-#: index/templates/main.html:233
+#: index/templates/main.html:264
 msgid "2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone."
 msgstr "2025 Boru Ramen Shop. Wszelkie prawa zastrzeżone."
 
@@ -225,7 +225,7 @@ msgstr "Lista alergentów dostepna u obsługi"
 msgid "Od 5 osób doliczamy do rachunku 10%% opłaty za serwis"
 msgstr "Od 5 osób doliczamy do rachunku 10%% opłaty za serwis"
 
-#: index/templates/menu.html:32 index/views.py:11
+#: index/templates/menu.html:32 index/views.py:12
 msgid "Przystawki"
 msgstr "Przystawki"
 
@@ -328,7 +328,7 @@ msgstr "Chipsy krewetkowe"
 msgid "Zupa miso"
 msgstr "Zupa miso"
 
-#: index/templates/menu.html:117 index/views.py:12
+#: index/templates/menu.html:117 index/views.py:13
 msgid "Dania główne"
 msgstr "Dania główne"
 
@@ -410,19 +410,25 @@ msgstr ""
 msgid "Chowmien kurczak 🌶🌶"
 msgstr "Chowmien kurczak 🌶🌶"
 
-#: index/templates/menu.html:174 index/templates/menu.html:181
-#: index/templates/menu.html:188 index/templates/menu.html:216
-#: index/templates/menu.html:223
-msgid "uzupełnić składniki"
-msgstr "uzupełnić składniki"
+#: index/templates/menu.html:174
+msgid "Kurczak, pikantny smażony makaron, papryka, marchew, cebula"
+msgstr "Kurczak, pikantny smażony makaron, papryka, marchew, cebula"
 
 #: index/templates/menu.html:178
 msgid "Chowmien tofu 🍃 🌶🌶"
 msgstr "Chowmien tofu 🍃 🌶🌶"
 
+#: index/templates/menu.html:181
+msgid " Tofu, pikantny smażony makaron, papryka, marchew, cebula"
+msgstr " Tofu, pikantny smażony makaron, papryka, marchew, cebula"
+
 #: index/templates/menu.html:185
 msgid "Chowmien krewetki 🌶🌶"
 msgstr "Chowmien krewetki 🌶🌶"
+
+#: index/templates/menu.html:188
+msgid "Krewetki,  pikantny smażony makaron, papryka, marchew, cebula"
+msgstr "Krewetki,  pikantny smażony makaron, papryka, marchew, cebula"
 
 #: index/templates/menu.html:192
 msgid "Ryż tonkatsu"
@@ -452,11 +458,23 @@ msgstr "Ryż jaśminowy,chrupiący łosoś, sos katsu"
 msgid "Yaki udon z krewetkami"
 msgstr "Yaki udon z krewetkami"
 
+#: index/templates/menu.html:216
+msgid ""
+"Krewetki, makaron udon, sos ostrygowy, marchew, cebula, papryka, brokuły"
+msgstr ""
+"Krewetki, makaron udon, sos ostrygowy, marchew, cebula, papryka, brokuły"
+
 #: index/templates/menu.html:220
 msgid "Yaki udon z wołowiną"
 msgstr "Yaki udon z wołowiną"
 
-#: index/templates/menu.html:228 index/views.py:13
+#: index/templates/menu.html:223
+msgid ""
+"Wołowina, makaron udon, sos ostrygowy, marchew, cebula, papryka, brokuły"
+msgstr ""
+"Wołowina, makaron udon, sos ostrygowy, marchew, cebula, papryka, brokuły"
+
+#: index/templates/menu.html:228 index/views.py:14
 msgid "Ramen"
 msgstr "Ramen"
 
@@ -590,7 +608,7 @@ msgstr "Łosoś"
 msgid "Krewetki"
 msgstr "Krewetki"
 
-#: index/templates/menu.html:347 index/views.py:15
+#: index/templates/menu.html:347 index/views.py:16
 msgid "Desery"
 msgstr "Desery"
 
@@ -698,7 +716,7 @@ msgstr "Cocacola 250ml"
 msgid "Cocaola 500ml"
 msgstr "Cocaola 500ml"
 
-#: index/templates/menu.html:504 index/views.py:17
+#: index/templates/menu.html:504 index/views.py:18
 msgid "Alkohole"
 msgstr "Alkohole"
 
@@ -923,13 +941,16 @@ msgstr ""
 "W przypadku zmian nie wpływających na prawa użytkowników, Polityka będzie "
 "aktualizowana bez konieczności akceptacji przez użytkownika."
 
-#: index/views.py:14
+#: index/views.py:15
 msgid "Dodatki"
 msgstr "Dodatki"
 
-#: index/views.py:16
+#: index/views.py:17
 msgid "Napoje"
 msgstr "Napoje"
+
+#~ msgid "uzupełnić składniki"
+#~ msgstr "uzupełnić składniki"
 
 #~ msgid "1. Informacje ogólne"
 #~ msgstr "1. Informacje ogólne"

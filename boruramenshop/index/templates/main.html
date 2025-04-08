@@ -5,9 +5,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %} Boru ramen shop{% endblock %}</title>
+    <meta name="keywords" content="boru ramen,boru ramen shop, boruramen lublin, ramen lublin,kuchnia japońska lublin, kuchnia azjatycka lublin, boru ramen menu, social media boru ramen">
+    <meta name="description" content="Boru Ramen Shop Lublin – autentyczna kuchnia japońska w sercu miasta. Odkryj bogate smaki ramenu, świeże składniki i prawdziwą atmosferę Japonii. Zapraszamy!" />
+    <title>{% block title %} Boru Ramen Shop – kuchnia japońska w Lublinie {% endblock %}</title>
+    <meta property="og:title" content="Boru Ramen Shop - Autentyczny Ramen w Lublinie">
+    <meta property="og:description" content="Autentyczna kuchnia japońska w sercu miasta. Odkryj bogate smaki ramenu, świeże składniki i prawdziwą atmosferę Japonii. Zapraszamy!">
+    <meta property="og:url" content="https://boruramen.pl">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:site_name" content="Boru Ramen Shop">
+    <meta property="og:image" content="{% static 'logoboru.png' %}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <link rel="icon" type="image/png" href="{% static 'logoboru.png' %}">
     <link rel="stylesheet" href="{% static 'style2.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Restaurant",
+          "name": "Boru Ramen",
+          "image": "https://boruramen.pl/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ul. Kosciuszki 3",
+            "addressLocality": "Lublin",
+            "postalCode": "20-006",
+            "addressCountry": "PL"
+          },
+          "telephone": "+48 507 030 411",
+          "servesCuisine": "Japońska",
+          "menu": "https://boruramen.pl/menu",
+          "priceRange": "$$"
+        }
+        </script>
+        
 </head>
 <body>
     <header>
@@ -44,17 +76,17 @@
         <div class="intro" >
         <style>
             .intro {
-                background-image: url("{% static 'background.jpg' %}");
+                background-image: url("{% static 'background2.webp' %}");
             }
         </style>
         
             <div class="overlay">
                 <div class="slogan">
-                    <h1>{% trans "Głęboki smak Japonii w każdej misce" %}</h1>
+                    <h1 class="slogantext">Boru Ramen Shop</h1>
                     <img src="{% static 'kot.png' %}" alt="Cat" class="introcat">
                 </div>
                 <div class="Name">
-                    <h2>Bōru Ramen Shop</h2>
+                    <h2>{% trans "Głęboki smak Japonii w każdej misce" %}</h2>
                 </div>
             </div>  
         </div>
@@ -133,7 +165,7 @@
                     </p>
                 </div>
                 <div class="recomendationphoto">
-                    <img src="{% static 'tantamen.png' %}" alt="Ramen" class="recphoto">
+                    <img src="{% static 'tantamen.png' %}" alt="Tantamen Ramen w Boru Ramen Shop Lublin" class="recphoto" loading="lazy">
                 </div>
                 <div class="menulink">
                     <h3 class="linkmenu">

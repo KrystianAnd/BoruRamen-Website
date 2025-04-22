@@ -25,7 +25,7 @@ The project is hosted on mydevil.net and publicly accessible.
 ## ⚙️ Technologies
 
 - Python 3.12
-- Django 5.1.5
+- Django 4.2.11
 - HTML
 - CSS
 - JavaScript
